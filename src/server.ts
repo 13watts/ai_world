@@ -7,6 +7,7 @@ import express from 'express';
 import helmet from 'helmet';
 import { siteRoutes } from './routes/siteRoutes.js';
 import { refreshFeeds } from './services/feedService.js';
+import { spawn } from "node:child_process";
 
 dotenv.config();
 
@@ -37,6 +38,68 @@ if (cron.validate(refreshCron)) {
 }
 
 refreshFeeds().catch((error) => console.error('Initial feed refresh failed', error));
+
+
+const feedRefreshMinutes = Number.parseInt(
+  process.env.AI_WORLD_FEED_REFRESH_MINUTES ?? "30",
+  10,
+);
+
+const feedRefreshIntervalMs =
+  Number.isFinite(feedRefreshMinutes) && feedRefreshMinutes > 0
+    ? feedRefreshMinutes * 60 * 1000
+    : 30 * 60 * 1000;
+
+let feedRefreshRunning = false;
+
+function refreshFeedsInBackground(reason: string): void {
+  if (feedRefreshRunning) {
+    console.log(`[feeds] Skipping ${reason} refresh because a previous refresh is still running.`);
+    return;
+  }
+
+  feedRefreshRunning = true;
+  const startedAt = new Date();
+
+  console.log(`[feeds] Starting ${reason} feed refresh at ${startedAt.toISOString()}`);
+
+  const child = spawn("npm", ["run", "refresh:feeds", "--silent"], {
+    cwd: process.cwd(),
+    env: process.env,
+    stdio: ["ignore", "pipe", "pipe"],
+  });
+
+  child.stdout.on("data", (data: Buffer) => {
+    process.stdout.write(`[feeds] ${data.toString()}`);
+  });
+
+  child.stderr.on("data", (data: Buffer) => {
+    process.stderr.write(`[feeds] ${data.toString()}`);
+  });
+
+  child.on("error", (error: Error) => {
+    feedRefreshRunning = false;
+    console.error(`[feeds] Refresh failed to start: ${error.message}`);
+  });
+
+  child.on("close", (code: number | null) => {
+    feedRefreshRunning = false;
+    const finishedAt = new Date();
+    const elapsedSeconds = Math.round((finishedAt.getTime() - startedAt.getTime()) / 1000);
+
+    if (code === 0) {
+      console.log(`[feeds] Completed ${reason} feed refresh in ${elapsedSeconds}s.`);
+    } else {
+      console.warn(`[feeds] ${reason} feed refresh exited with code ${code} after ${elapsedSeconds}s.`);
+    }
+  });
+}
+
+refreshFeedsInBackground("startup");
+
+setInterval(() => {
+  refreshFeedsInBackground("scheduled");
+}, feedRefreshIntervalMs);
 
 app.listen(port, () => {
   console.log(`AI World listening at http://localhost:${port}`);
