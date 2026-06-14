@@ -1,0 +1,9 @@
+<header class="site-header">
+  <a class="brand" href="/">AI World</a>
+  <nav>
+    <a href="/feeds">Feeds</a>
+    <% modalities.forEach((modality) => { %>
+      <a href="/modalities/<%= modality.slug %>"><%= modality.name.split('&')[0].trim() %></a>
+    <% }) %>
+  </nav>
+</header>
