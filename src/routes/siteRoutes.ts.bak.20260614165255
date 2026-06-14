@@ -2,7 +2,6 @@ import { Router } from 'express';
 import { getModality, modalities } from '../config/modalities.js';
 import { addCustomFeedFromUrl, getAllFeedSources } from '../services/feedRegistry.js';
 import { getFeedCache, getItemsForModality, refreshFeeds } from '../services/feedService.js';
-import { getRecentLogEvents } from '../services/activityLog.js';
 
 export const siteRoutes = Router();
 
@@ -45,27 +44,6 @@ siteRoutes.get('/feeds', async (req, res, next) => {
       updatedAt: cache.updatedAt,
       addedFeed: req.query.addedFeed,
       addFeedError: req.query.addFeedError
-    });
-  } catch (error) {
-    next(error);
-  }
-});
-
-
-
-siteRoutes.get('/logs', async (req, res, next) => {
-  try {
-    const kind = req.query.kind === 'rss-crawl' ? 'rss-crawl' : 'access';
-    const rawLimit = Number.parseInt(typeof req.query.limit === 'string' ? req.query.limit : '200', 10);
-    const limit = Number.isFinite(rawLimit) ? rawLimit : 200;
-    const events = await getRecentLogEvents(kind, limit);
-
-    res.render('logs', {
-      title: 'Logs | AI World',
-      modalities,
-      kind,
-      limit,
-      events
     });
   } catch (error) {
     next(error);

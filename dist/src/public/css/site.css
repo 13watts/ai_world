@@ -92,3 +92,23 @@ th { color: var(--muted); background: var(--panel-2); }
   border-left: 4px solid #1a7f37;
 }
 
+select,
+input {
+  border: 1px solid var(--line);
+  border-radius: .55rem;
+  background: #0c1328;
+  color: var(--text);
+  padding: .55rem .65rem;
+}
+
+.log-event pre {
+  max-height: 28rem;
+  overflow: auto;
+  white-space: pre-wrap;
+  word-break: break-word;
+  background: #0c1328;
+  border: 1px solid var(--line);
+  border-radius: .75rem;
+  padding: .85rem;
+}
+

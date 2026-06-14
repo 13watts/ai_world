@@ -7,6 +7,7 @@ import express from 'express';
 import helmet from 'helmet';
 import { siteRoutes } from './routes/siteRoutes.js';
 import { refreshFeeds } from './services/feedService.js';
+import { logPageAccess } from './services/activityLog.js';
 import { spawn } from "node:child_process";
 dotenv.config();
 const __filename = fileURLToPath(import.meta.url);
@@ -20,6 +21,7 @@ app.use(helmet({ contentSecurityPolicy: false }));
 app.use(compression());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, 'public')));
+app.use(logPageAccess);
 app.use(siteRoutes);
 app.use((err, _req, res, _next) => {
     console.error(err);

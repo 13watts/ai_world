@@ -2,6 +2,7 @@ import { Router } from 'express';
 import { getModality, modalities } from '../config/modalities.js';
 import { addCustomFeedFromUrl, getAllFeedSources } from '../services/feedRegistry.js';
 import { getFeedCache, getItemsForModality, refreshFeeds } from '../services/feedService.js';
+import { getRecentLogEvents } from '../services/activityLog.js';
 export const siteRoutes = Router();
 siteRoutes.get('/', async (_req, res, next) => {
     try {
@@ -46,6 +47,24 @@ siteRoutes.get('/feeds', async (req, res, next) => {
         next(error);
     }
 });
+siteRoutes.get('/logs', async (req, res, next) => {
+    try {
+        const kind = req.query.kind === 'rss-crawl' ? 'rss-crawl' : 'access';
+        const rawLimit = Number.parseInt(typeof req.query.limit === 'string' ? req.query.limit : '200', 10);
+        const limit = Number.isFinite(rawLimit) ? rawLimit : 200;
+        const events = await getRecentLogEvents(kind, limit);
+        res.render('logs', {
+            title: 'Logs | AI World',
+            modalities,
+            kind,
+            limit,
+            events
+        });
+    }
+    catch (error) {
+        next(error);
+    }
+});
 siteRoutes.post('/admin/feeds/add', async (req, res) => {
     try {
         const feedUrl = typeof req.body.feedUrl === 'string' ? req.body.feedUrl : '';
@@ -55,6 +74,7 @@ siteRoutes.post('/admin/feeds/add', async (req, res) => {
         res.redirect(`/feeds?addedFeed=${encodeURIComponent(feed.title)}`);
     }
     catch (error) {
+        console.error('[feeds] Add feed failed:', error);
         const message = error instanceof Error ? error.message : String(error);
         res.redirect(`/feeds?addFeedError=${encodeURIComponent(message)}`);
     }

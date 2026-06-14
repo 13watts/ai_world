@@ -1,11 +1,9 @@
-import { randomUUID } from 'node:crypto';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import Parser from 'rss-parser';
 import { z } from 'zod';
 import type { FeedCache, FeedItem, ModalitySlug } from '../types/content.js';
 import { getAllFeedSources } from './feedRegistry.js';
-import { logFeedCrawlEvent } from './activityLog.js';
 import { classifyItemModalities } from './modalityClassifier.js';
 
 const parser = new Parser({
@@ -92,47 +90,14 @@ async function writeCache(cache: FeedCache): Promise<void> {
 }
 
 export async function refreshFeeds(): Promise<FeedCache> {
-  const crawlId = randomUUID();
-  const startedAtMs = Date.now();
   const items: FeedItem[] = [];
   const errors: FeedCache['errors'] = [];
   const sources = await getAllFeedSources();
 
-  await logFeedCrawlEvent({
-    event: 'rss_crawl_start',
-    crawlId,
-    sourceCount: sources.length,
-    maxItemsPerFeed: env.MAX_ITEMS_PER_FEED,
-    cacheFile
-  });
-
   await Promise.allSettled(
     sources.map(async (source) => {
-      await logFeedCrawlEvent({
-        event: 'rss_feed_fetch_start',
-        crawlId,
-        sourceId: source.id,
-        sourceTitle: source.title,
-        feedUrl: source.url,
-        homepage: source.homepage,
-        configuredModalities: source.modalitySlugs,
-        reliability: source.reliability
-      });
-
       try {
         const parsed = await parser.parseURL(source.url);
-
-        await logFeedCrawlEvent({
-          event: 'rss_feed_fetch_success',
-          crawlId,
-          sourceId: source.id,
-          sourceTitle: source.title,
-          feedUrl: source.url,
-          itemCount: parsed.items.length,
-          feedTitle: stripHtml(parsed.title) ?? source.title,
-          feedLink: safeUrl(parsed.link) ?? source.homepage
-        });
-
         for (const item of parsed.items.slice(0, env.MAX_ITEMS_PER_FEED)) {
           const title = stripHtml(item.title);
           const link = safeUrl(item.link);
@@ -152,20 +117,10 @@ export async function refreshFeeds(): Promise<FeedCache> {
           });
         }
       } catch (error) {
-        const message = error instanceof Error ? error.message : safeText(error);
         errors.push({
           sourceId: source.id,
-          message,
+          message: error instanceof Error ? error.message : safeText(error),
           at: new Date().toISOString()
-        });
-
-        await logFeedCrawlEvent({
-          event: 'rss_feed_fetch_error',
-          crawlId,
-          sourceId: source.id,
-          sourceTitle: source.title,
-          feedUrl: source.url,
-          message
         });
       }
     })
@@ -173,20 +128,6 @@ export async function refreshFeeds(): Promise<FeedCache> {
 
   const uniqueByLink = new Map<string, FeedItem>();
   for (const item of items) uniqueByLink.set(item.link, item);
-
-  for (const item of uniqueByLink.values()) {
-    await logFeedCrawlEvent({
-      event: 'rss_item_discovered',
-      crawlId,
-      sourceId: item.sourceId,
-      sourceTitle: item.sourceTitle,
-      title: item.title,
-      link: item.link,
-      isoDate: item.isoDate ?? null,
-      routedModalities: item.modalitySlugs,
-      categories: item.categories.slice(0, 12)
-    });
-  }
 
   const cache: FeedCache = {
     updatedAt: new Date().toISOString(),
@@ -199,18 +140,6 @@ export async function refreshFeeds(): Promise<FeedCache> {
   };
 
   await writeCache(cache);
-
-  await logFeedCrawlEvent({
-    event: 'rss_crawl_complete',
-    crawlId,
-    sourceCount: sources.length,
-    discoveredItemCount: items.length,
-    uniqueItemCount: uniqueByLink.size,
-    errorCount: errors.length,
-    elapsedMs: Date.now() - startedAtMs,
-    cacheUpdatedAt: cache.updatedAt
-  });
-
   return cache;
 }
 
