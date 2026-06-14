@@ -19,6 +19,8 @@ export interface FeedSource {
   title: string;
   url: string;
   homepage: string;
+  fallbackUrls?: string[];
+  enabled?: boolean;
   modalitySlugs: ModalitySlug[];
   tags: string[];
   reliability: 'official' | 'research' | 'editorial' | 'community';

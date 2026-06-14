@@ -1,0 +1,114 @@
+import type { FeedSource } from '../types/content.js';
+
+export const feedSources: FeedSource[] = [
+  {
+    id: 'openai-news',
+    title: 'OpenAI News',
+    url: 'https://openai.com/news/rss.xml',
+    homepage: 'https://openai.com/news/',
+    modalitySlugs: ['text-llms', 'image-video', 'audio-speech', 'code-agents', 'research-ml', 'governance-safety'],
+    tags: ['frontier models', 'product', 'research'],
+    reliability: 'official'
+  },
+  {
+    id: 'anthropic-news',
+    title: 'Anthropic News',
+    url: 'https://rsshub.app/anthropic/news',
+    homepage: 'https://www.anthropic.com/news',
+    fallbackUrls: ['https://rsshub.rssforever.com/anthropic/news'],
+    modalitySlugs: ['text-llms', 'code-agents', 'research-ml', 'governance-safety'],
+    tags: ['Claude', 'agents', 'AI safety'],
+    reliability: 'community'
+  },
+  {
+    id: 'google-ai-blog',
+    title: 'Google AI Blog',
+    url: 'https://blog.google/technology/ai/rss/',
+    homepage: 'https://blog.google/technology/ai/',
+    modalitySlugs: ['text-llms', 'image-video', 'audio-speech', 'research-ml', 'infra-mlops', 'governance-safety'],
+    tags: ['Gemini', 'research', 'products'],
+    reliability: 'official'
+  },
+  {
+    id: 'google-deepmind',
+    title: 'Google DeepMind via Google Blog',
+    url: 'https://blog.google/innovation-and-ai/models-and-research/google-deepmind/rss/',
+    homepage: 'https://blog.google/innovation-and-ai/models-and-research/google-deepmind/',
+    fallbackUrls: ['https://blog.google/technology/ai/rss/'],
+    modalitySlugs: ['research-ml', 'text-llms', 'image-video', 'governance-safety'],
+    tags: ['research', 'frontier models', 'science'],
+    reliability: 'official'
+  },
+  {
+    id: 'huggingface-blog',
+    title: 'Hugging Face Blog',
+    url: 'https://huggingface.co/blog/feed.xml',
+    homepage: 'https://huggingface.co/blog',
+    modalitySlugs: ['text-llms', 'image-video', 'audio-speech', 'research-ml', 'infra-mlops', 'code-agents'],
+    tags: ['open models', 'datasets', 'ML engineering'],
+    reliability: 'official'
+  },
+  {
+    id: 'arxiv-ai',
+    title: 'arXiv Artificial Intelligence',
+    url: 'https://rss.arxiv.org/rss/cs.AI',
+    homepage: 'https://arxiv.org/list/cs.AI/recent',
+    modalitySlugs: ['research-ml'],
+    tags: ['papers', 'research'],
+    reliability: 'research'
+  },
+  {
+    id: 'arxiv-cl',
+    title: 'arXiv Computation and Language',
+    url: 'https://rss.arxiv.org/rss/cs.CL',
+    homepage: 'https://arxiv.org/list/cs.CL/recent',
+    modalitySlugs: ['text-llms', 'research-ml'],
+    tags: ['NLP', 'LLMs', 'papers'],
+    reliability: 'research'
+  },
+  {
+    id: 'arxiv-cv',
+    title: 'arXiv Computer Vision',
+    url: 'https://rss.arxiv.org/rss/cs.CV',
+    homepage: 'https://arxiv.org/list/cs.CV/recent',
+    modalitySlugs: ['image-video', 'research-ml'],
+    tags: ['vision', 'multimodal', 'papers'],
+    reliability: 'research'
+  },
+  {
+    id: 'arxiv-lg',
+    title: 'arXiv Machine Learning',
+    url: 'https://rss.arxiv.org/rss/cs.LG',
+    homepage: 'https://arxiv.org/list/cs.LG/recent',
+    modalitySlugs: ['research-ml', 'infra-mlops'],
+    tags: ['machine learning', 'papers'],
+    reliability: 'research'
+  },
+  {
+    id: 'mit-tech-review-ai',
+    title: 'MIT Technology Review AI',
+    url: 'https://www.technologyreview.com/feed/',
+    homepage: 'https://www.technologyreview.com/topic/artificial-intelligence/',
+    modalitySlugs: ['text-llms', 'image-video', 'research-ml', 'governance-safety'],
+    tags: ['news', 'analysis', 'policy'],
+    reliability: 'editorial'
+  },
+  {
+    id: 'the-gradient',
+    title: 'The Gradient',
+    url: 'https://thegradient.pub/rss/',
+    homepage: 'https://thegradient.pub/',
+    modalitySlugs: ['research-ml', 'text-llms', 'governance-safety'],
+    tags: ['analysis', 'research commentary'],
+    reliability: 'editorial'
+  },
+  {
+    id: 'papers-with-code',
+    title: 'Papers with Code',
+    url: 'https://paperswithcode.com/rss',
+    homepage: 'https://paperswithcode.com/',
+    modalitySlugs: ['research-ml', 'code-agents'],
+    tags: ['papers', 'code', 'benchmarks'],
+    reliability: 'research'
+  }
+];

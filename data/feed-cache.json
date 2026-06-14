@@ -1,0 +1,2462 @@
+{
+  "updatedAt": "2026-06-14T19:45:37.973Z",
+  "items": [
+    {
+      "sourceId": "huggingface-blog",
+      "sourceTitle": "Hugging Face Blog",
+      "title": "olmo-eval: An evaluation workbench for the model development loop",
+      "link": "https://huggingface.co/blog/allenai/olmo-eval",
+      "isoDate": "2026-06-12T15:56:10.000Z",
+      "categories": [
+        "open models",
+        "datasets",
+        "ML engineering"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "audio-speech",
+        "research-ml",
+        "infra-mlops",
+        "code-agents"
+      ]
+    },
+    {
+      "sourceId": "mit-tech-review-ai",
+      "sourceTitle": "MIT Technology Review AI",
+      "title": "The Download: “reprogramming” aging, and the hidden sense of interoception",
+      "link": "https://www.technologyreview.com/2026/06/12/1138899/the-download-reprogramming-reverse-aging-interoception/",
+      "isoDate": "2026-06-12T12:10:00.000Z",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Why “reprogramming” is the buzziest approach to reversing aging right now Earlier this week, Life Biosciences, a biotech company focused on reversing age-related diseases, announced that it had dosed its first…",
+      "categories": [
+        "The Download",
+        "news",
+        "analysis",
+        "policy"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "research-ml",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "mit-tech-review-ai",
+      "sourceTitle": "MIT Technology Review AI",
+      "title": "You do your own time",
+      "link": "https://www.technologyreview.com/2026/06/12/1138518/you-do-your-own-time-fiction/",
+      "isoDate": "2026-06-12T10:00:00.000Z",
+      "summary": "There we were, a regular murderers’ row of librarians. Little Jo. Eustace. And me. Turning around in the nave of our library to greet the sound of footsteps, pistols leveled in case whoever was coming in didn’t respect sanctuary. Little Jo had a stack of books under one arm. Eustace was holding the screwdriver she’d…",
+      "categories": [
+        "Culture",
+        "App",
+        "news",
+        "analysis",
+        "policy"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "research-ml",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "openai-news",
+      "sourceTitle": "OpenAI News",
+      "title": "New OpenAI Academy courses for the next era of work",
+      "link": "https://openai.com/index/academy-courses-applying-ai-at-work",
+      "isoDate": "2026-06-12T10:00:00.000Z",
+      "summary": "OpenAI introduces three Academy courses that help people build practical AI skills, create repeatable workflows, and apply agents in everyday work.",
+      "categories": [
+        "AI Adoption",
+        "frontier models",
+        "product",
+        "research"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "audio-speech",
+        "code-agents",
+        "research-ml",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "mit-tech-review-ai",
+      "sourceTitle": "MIT Technology Review AI",
+      "title": "Why “reprogramming” is the buzziest approach to reversing aging right now",
+      "link": "https://www.technologyreview.com/2026/06/12/1138829/reprogramming-buzziest-approach-reversing-aging-right-now/",
+      "isoDate": "2026-06-12T09:00:00.000Z",
+      "summary": "Earlier this week, Life Biosciences, a biotech company focused on reversing age-related diseases, announced that it had dosed its first volunteer. A person with glaucoma has had an experimental treatment injected straight into their eyeball. The idea is to try to treat the disease—which can cause vision loss—by regenerating healthy nerves in the eye. But…",
+      "categories": [
+        "Biotechnology and health",
+        "App",
+        "Summary",
+        "The Checkup",
+        "news",
+        "analysis",
+        "policy"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "research-ml",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "mit-tech-review-ai",
+      "sourceTitle": "MIT Technology Review AI",
+      "title": "Inside interoception: The hidden sense of how you feel inside",
+      "link": "https://www.technologyreview.com/2026/06/12/1138833/inside-interoception-brain-body/",
+      "isoDate": "2026-06-12T09:00:00.000Z",
+      "summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of science and technology to help you understand what’s coming next. You can read more from the series here. Your brain lives in the dark space of your skull. Yet it knows when the wind lifts the hairs on your skin, when your heart is…",
+      "categories": [
+        "Biotechnology and health",
+        "App",
+        "biotech",
+        "MIT Technology Review Explains",
+        "news",
+        "analysis",
+        "policy"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "research-ml",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "openai-news",
+      "sourceTitle": "OpenAI News",
+      "title": "How Preply combines AI and human tutors to personalize learning",
+      "link": "https://openai.com/index/preply",
+      "isoDate": "2026-06-12T00:00:00.000Z",
+      "summary": "Preply uses OpenAI to launch AI-generated lesson summaries, providing personalised feedback and language learning exercises.",
+      "categories": [
+        "frontier models",
+        "product",
+        "research"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "audio-speech",
+        "code-agents",
+        "research-ml",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "google-ai-blog",
+      "sourceTitle": "Google AI Blog",
+      "title": "Our new community investments in Virginia support local jobs and expand energy affordability.",
+      "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments/",
+      "isoDate": "2026-06-11T20:00:00.000Z",
+      "summary": "We’re helping build the state’s next-generation workforce and investing in energy programs.",
+      "categories": [
+        "Google.org",
+        "Global Network",
+        "Creating opportunity",
+        "AI",
+        "Gemini",
+        "research",
+        "products"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "audio-speech",
+        "research-ml",
+        "infra-mlops",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "anthropic-news",
+      "sourceTitle": "Anthropic News",
+      "title": "Statement on the US government directive to suspend access to Fable 5 and Mythos 5",
+      "link": "https://www.anthropic.com/news/fable-mythos-access",
+      "isoDate": "2026-06-11T16:00:00.000Z",
+      "summary": "The US government, citing national security authorities, has issued an export control directive to suspend all access to Fable 5 and Mythos 5 by any foreign national, whether inside or outside the United States, including foreign national Anthropic employees. The net effect of this order is that we must abruptly disable Fable 5 and Mythos 5 for all our customers to ensure compliance. Access to all",
+      "categories": [
+        "Claude",
+        "agents",
+        "AI safety"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "code-agents",
+        "research-ml",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "anthropic-news",
+      "sourceTitle": "Anthropic News",
+      "title": "Results from the first Anthropic Public Record",
+      "link": "https://www.anthropic.com/news/anthropic-public-record",
+      "isoDate": "2026-06-11T16:00:00.000Z",
+      "summary": "We’re conducting a new survey series, Anthropic Public Record, to understand how the public thinks and feels about AI, and presenting a snapshot of the results from the first wave, fielded in November and December of 2025 with nearly 52,000 Americans. We found: Nearly half (48%) of Americans ranked curing diseases like cancer or Alzheimer’s as one of their top three hopes for AI, followed by helpi",
+      "categories": [
+        "Claude",
+        "agents",
+        "AI safety"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "code-agents",
+        "research-ml",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "anthropic-news",
+      "sourceTitle": "Anthropic News",
+      "title": "TCS and Anthropic partner to bring Claude to regulated industries",
+      "link": "https://www.anthropic.com/news/tcs-anthropic-partnership",
+      "isoDate": "2026-06-11T16:00:00.000Z",
+      "summary": "We’re announcing a partnership with Tata Consultancy Services (TCS), one of the world’s largest technology services companies. TCS will provide Claude to 50,000 of its own employees across 56 countries; build Claude-powered products for clients in financial services, healthcare, the public sector, and other regulated industries; and join the Claude Partner Network, our network of consulting and se",
+      "categories": [
+        "Claude",
+        "agents",
+        "AI safety"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "code-agents",
+        "research-ml",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "mit-tech-review-ai",
+      "sourceTitle": "MIT Technology Review AI",
+      "title": "The Download: soccer’s data renaissance and China’s big nuclear plans",
+      "link": "https://www.technologyreview.com/2026/06/11/1138809/the-download-soccer-football-data-analytics-china-nuclear-power/",
+      "isoDate": "2026-06-11T12:10:00.000Z",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Inside soccer’s data renaissance Imagine tuning in to the opening kickoff of a World Cup match and seeing a player intentionally kick the ball out of bounds. You may question the…",
+      "categories": [
+        "The Download",
+        "news",
+        "analysis",
+        "policy"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "research-ml",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "mit-tech-review-ai",
+      "sourceTitle": "MIT Technology Review AI",
+      "title": "Google DeepMind is worried about what happens when millions of agents start to interact",
+      "link": "https://www.technologyreview.com/2026/06/11/1138794/google-deepmind-is-worried-about-what-happens-when-millions-of-agents-start-to-interact/",
+      "isoDate": "2026-06-11T11:00:45.000Z",
+      "summary": "Google DeepMind is funding research into the potential dangers of situations where millions of different AI agents interact with each other online. According to Rohin Shah, who directs the company’s AGI safety and alignment research, the mass-market arrival of agents that can carry out tasks without human oversight and follow instructions given to them by other…",
+      "categories": [
+        "Artificial intelligence",
+        "App",
+        "Summary",
+        "news",
+        "analysis",
+        "policy"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "research-ml",
+        "governance-safety",
+        "code-agents"
+      ]
+    },
+    {
+      "sourceId": "mit-tech-review-ai",
+      "sourceTitle": "MIT Technology Review AI",
+      "title": "Job titles of the future: Nature’s drug designer",
+      "link": "https://www.technologyreview.com/2026/06/11/1138502/job-titles-natures-drug-designer-tim-cernak/",
+      "isoDate": "2026-06-11T10:00:00.000Z",
+      "summary": "In 2018, after nearly two decades working in Big Pharma, chemist Tim Cernak was ready to put his skills to a new use. For Merck, he’d developed precision therapies for cancer, HIV, and diabetes that could target disease while minimizing harm to healthy cells. But as a lifelong nature lover, he was increasingly concerned about…",
+      "categories": [
+        "Climate change and energy",
+        "App",
+        "news",
+        "analysis",
+        "policy"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "research-ml",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "mit-tech-review-ai",
+      "sourceTitle": "MIT Technology Review AI",
+      "title": "Inside soccer’s data renaissance",
+      "link": "https://www.technologyreview.com/2026/06/11/1138506/inside-soccer-data-renaissance-jesse-davis/",
+      "isoDate": "2026-06-11T10:00:00.000Z",
+      "summary": "Imagine tuning in to the opening kickoff of a World Cup match and seeing a player intentionally send the ball all the way down the pitch and right out of bounds on the opponent’s end. Casual fans might scratch their heads. Where’s the logic in surrendering possession seconds into a game? If you were Jesse…",
+      "categories": [
+        "Culture",
+        "App",
+        "news",
+        "analysis",
+        "policy"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "research-ml",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "mit-tech-review-ai",
+      "sourceTitle": "MIT Technology Review AI",
+      "title": "Why China is betting on big nuclear reactors",
+      "link": "https://www.technologyreview.com/2026/06/11/1138789/china-big-nuclear-reactors/",
+      "isoDate": "2026-06-11T10:00:00.000Z",
+      "summary": "It’s a tale of two nuclear industries. In China, large reactors are coming together at a stunning pace. The country has nearly doubled its nuclear fleet since 2016, reaching nearly 60 gigawatts of total power capacity. The new facilities are nearly all gigawatt-scale pressurized-water reactors. Meanwhile, the US has built just two reactors in that…",
+      "categories": [
+        "Climate change and energy",
+        "App",
+        "Summary",
+        "The Spark",
+        "news",
+        "analysis",
+        "policy"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "research-ml",
+        "governance-safety",
+        "audio-speech"
+      ]
+    },
+    {
+      "sourceId": "huggingface-blog",
+      "sourceTitle": "Hugging Face Blog",
+      "title": "Profiling in PyTorch (Part 2): From nn.Linear to a Fused MLP",
+      "link": "https://huggingface.co/blog/torch-mlp-fusion",
+      "isoDate": "2026-06-11T00:00:00.000Z",
+      "categories": [
+        "open models",
+        "datasets",
+        "ML engineering"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "audio-speech",
+        "research-ml",
+        "infra-mlops",
+        "code-agents"
+      ]
+    },
+    {
+      "sourceId": "openai-news",
+      "sourceTitle": "OpenAI News",
+      "title": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem",
+      "link": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
+      "isoDate": "2026-06-11T00:00:00.000Z",
+      "summary": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.",
+      "categories": [
+        "Global Affairs",
+        "frontier models",
+        "product",
+        "research"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "audio-speech",
+        "code-agents",
+        "research-ml",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "openai-news",
+      "sourceTitle": "OpenAI News",
+      "title": "How an astrophysicist uses Codex to help simulate black holes",
+      "link": "https://openai.com/index/using-codex-to-simulate-black-holes",
+      "isoDate": "2026-06-11T00:00:00.000Z",
+      "summary": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
+      "categories": [
+        "Applied AI",
+        "frontier models",
+        "product",
+        "research"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "audio-speech",
+        "code-agents",
+        "research-ml",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "openai-news",
+      "sourceTitle": "OpenAI News",
+      "title": "BBVA puts AI at the core of banking with OpenAI",
+      "link": "https://openai.com/index/bbva",
+      "isoDate": "2026-06-11T00:00:00.000Z",
+      "summary": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
+      "categories": [
+        "frontier models",
+        "product",
+        "research"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "audio-speech",
+        "code-agents",
+        "research-ml",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "openai-news",
+      "sourceTitle": "OpenAI News",
+      "title": "OpenAI to acquire Ona",
+      "link": "https://openai.com/index/openai-to-acquire-ona",
+      "isoDate": "2026-06-11T00:00:00.000Z",
+      "summary": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
+      "categories": [
+        "Company",
+        "frontier models",
+        "product",
+        "research"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "audio-speech",
+        "code-agents",
+        "research-ml",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "openai-news",
+      "sourceTitle": "OpenAI News",
+      "title": "Access OpenAI models and Codex through your Oracle cloud commitment",
+      "link": "https://openai.com/index/openai-on-oracle-cloud",
+      "isoDate": "2026-06-10T20:00:00.000Z",
+      "summary": "Access OpenAI models and Codex through Oracle Cloud, using existing commitments to build and deploy AI with enterprise security and governance.",
+      "categories": [
+        "Company",
+        "frontier models",
+        "product",
+        "research"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "audio-speech",
+        "code-agents",
+        "research-ml",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "anthropic-news",
+      "sourceTitle": "Anthropic News",
+      "title": "DXC will integrate Claude into the systems banks, airlines, and other regulated industries rely on",
+      "link": "https://www.anthropic.com/news/dxc-anthropic-alliance",
+      "isoDate": "2026-06-10T16:00:00.000Z",
+      "summary": "We’re announcing a multi-year global alliance with DXC Technology, one of the world’s largest IT services companies. DXC will train tens of thousands of Claude-certified forward-deployed engineers (FDEs)—engineers embedded directly inside customer organizations—to bring Claude into the systems DXC operates for the world’s largest banks, airlines, insurers, manufacturers, and government agencies. T",
+      "categories": [
+        "Claude",
+        "agents",
+        "AI safety"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "code-agents",
+        "research-ml",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "anthropic-news",
+      "sourceTitle": "Anthropic News",
+      "title": "Introducing Claude Corps",
+      "link": "https://www.anthropic.com/news/claude-corps",
+      "isoDate": "2026-06-10T16:00:00.000Z",
+      "summary": "We’re launching Claude Corps, a national fellowship program for people early in their careers who are passionate about extending the benefits of AI to communities across America. We’ll teach 1,000 fellows how to use Claude well, match them with nonprofits across America, and pay them to spend a year—full-time, in-person—helping host organizations to advance their missions. Our goals are twofold: t",
+      "categories": [
+        "Claude",
+        "agents",
+        "AI safety"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "code-agents",
+        "research-ml",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "mit-tech-review-ai",
+      "sourceTitle": "MIT Technology Review AI",
+      "title": "The Download: the “steroid olympics” and a safer Mythos",
+      "link": "https://www.technologyreview.com/2026/06/10/1138739/the-download-steroid-olympics-enhanced-games-anthropic-mythos/",
+      "isoDate": "2026-06-10T12:10:00.000Z",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The “steroid olympics” were a circus—and a window into our culture —Amit Katwala A couple of weeks ago, at a $50 million arena built in a casino parking lot in Las…",
+      "categories": [
+        "The Download",
+        "news",
+        "analysis",
+        "policy"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "research-ml",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "openai-news",
+      "sourceTitle": "OpenAI News",
+      "title": "PRC-linked influence operations are targeting AI debates in the US",
+      "link": "https://openai.com/index/prc-linked-influence-operations-ai-debates",
+      "isoDate": "2026-06-10T12:00:00.000Z",
+      "summary": "A new report from OpenAI details PRC-linked influence operations using AI to target U.S. tech debates, data center narratives, tariffs, and false claims about ChatGPT.",
+      "categories": [
+        "Global Affairs",
+        "frontier models",
+        "product",
+        "research"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "audio-speech",
+        "code-agents",
+        "research-ml",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "openai-news",
+      "sourceTitle": "OpenAI News",
+      "title": "From data to decisions: how LSEG is scaling trusted AI",
+      "link": "https://openai.com/index/lseg",
+      "isoDate": "2026-06-10T00:00:00.000Z",
+      "summary": "See how LSEG uses OpenAI to scale trusted AI across its global business, accelerating insights, shrinking release cycles, and empowering 4,000 employees.",
+      "categories": [
+        "frontier models",
+        "product",
+        "research"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "audio-speech",
+        "code-agents",
+        "research-ml",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "huggingface-blog",
+      "sourceTitle": "Hugging Face Blog",
+      "title": "Introducing North Mini Code: Cohere’s First Model For Developers",
+      "link": "https://huggingface.co/blog/CohereLabs/introducing-north-mini-code",
+      "isoDate": "2026-06-09T15:56:23.000Z",
+      "categories": [
+        "open models",
+        "datasets",
+        "ML engineering"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "audio-speech",
+        "research-ml",
+        "infra-mlops",
+        "code-agents"
+      ]
+    },
+    {
+      "sourceId": "openai-news",
+      "sourceTitle": "OpenAI News",
+      "title": "How engineers at Nextdoor use Codex to build without limits",
+      "link": "https://openai.com/index/nextdoor",
+      "isoDate": "2026-06-09T12:00:00.000Z",
+      "summary": "How engineers at Nextdoor use Codex with GPT-5.5 to investigate hard-to-reproduce issues, build across platforms, and focus on product outcomes.",
+      "categories": [
+        "frontier models",
+        "product",
+        "research"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "audio-speech",
+        "code-agents",
+        "research-ml",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "huggingface-blog",
+      "sourceTitle": "Hugging Face Blog",
+      "title": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
+      "link": "https://huggingface.co/blog/mishig/spaces-agents-md",
+      "isoDate": "2026-06-09T10:46:19.000Z",
+      "categories": [
+        "open models",
+        "datasets",
+        "ML engineering"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "audio-speech",
+        "research-ml",
+        "infra-mlops",
+        "code-agents"
+      ]
+    },
+    {
+      "sourceId": "openai-news",
+      "sourceTitle": "OpenAI News",
+      "title": "What Codex unlocks for Notion",
+      "link": "https://openai.com/index/notion",
+      "isoDate": "2026-06-09T10:00:00.000Z",
+      "summary": "How Notion uses Codex to one-shot specs, build AI Voice Input for the web, and multiply engineering power across small teams.",
+      "categories": [
+        "frontier models",
+        "product",
+        "research"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "audio-speech",
+        "code-agents",
+        "research-ml",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "huggingface-blog",
+      "sourceTitle": "Hugging Face Blog",
+      "title": "Migrating Your GitHub CI to Hugging Face Jobs",
+      "link": "https://huggingface.co/blog/github-ci-hf-jobs",
+      "isoDate": "2026-06-09T00:00:00.000Z",
+      "categories": [
+        "open models",
+        "datasets",
+        "ML engineering"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "audio-speech",
+        "research-ml",
+        "infra-mlops",
+        "code-agents"
+      ]
+    },
+    {
+      "sourceId": "openai-news",
+      "sourceTitle": "OpenAI News",
+      "title": "Industrial policy for the Intelligence Age",
+      "link": "https://openai.com/index/industrial-policy-for-the-intelligence-age",
+      "isoDate": "2026-06-09T00:00:00.000Z",
+      "summary": "Explore our ambitious, people-first industrial policy ideas for the AI era—focused on expanding opportunity, sharing prosperity, and building resilient institutions as advanced intelligence evolves.",
+      "categories": [
+        "Global Affairs",
+        "frontier models",
+        "product",
+        "research"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "audio-speech",
+        "code-agents",
+        "research-ml",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "anthropic-news",
+      "sourceTitle": "Anthropic News",
+      "title": "Claude Fable 5 and Claude Mythos 5",
+      "link": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+      "isoDate": "2026-06-08T16:00:00.000Z",
+      "summary": "Update Claude Mythos 5 and Fable 5 access unavailable Jun 12, 2026 We are suspending access to Claude Fable 5 and Claude Mythos 5. We apologize for this disruption to our customers and are working to restore access as soon as possible. Read more Today we’re launching Claude Fable 5: a Mythos-class1 model that we’ve made safe for general use. Fable 5’s capabilities exceed those of any model we’ve e",
+      "categories": [
+        "Claude",
+        "agents",
+        "AI safety"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "code-agents",
+        "research-ml",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "openai-news",
+      "sourceTitle": "OpenAI News",
+      "title": "Confidential submission of draft S-1 to the SEC",
+      "link": "https://openai.com/index/openai-submits-confidential-s-1",
+      "isoDate": "2026-06-08T14:00:00.000Z",
+      "summary": "OpenAI confirms a confidential S-1 submission to the SEC and has not yet determined timing for further action.",
+      "categories": [
+        "Company",
+        "frontier models",
+        "product",
+        "research"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "audio-speech",
+        "code-agents",
+        "research-ml",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "openai-news",
+      "sourceTitle": "OpenAI News",
+      "title": "Built to benefit everyone: our plan",
+      "link": "https://openai.com/index/built-to-benefit-everyone-our-plan",
+      "isoDate": "2026-06-08T01:30:00.000Z",
+      "summary": "A vision for the future of AI, focusing on access, safety, and shared prosperity as OpenAI works to ensure AGI benefits everyone.",
+      "categories": [
+        "Company",
+        "frontier models",
+        "product",
+        "research"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "audio-speech",
+        "code-agents",
+        "research-ml",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "huggingface-blog",
+      "sourceTitle": "Hugging Face Blog",
+      "title": "The Open Source Community is backing OpenEnv for Agentic RL",
+      "link": "https://huggingface.co/blog/openenv-agentic-rl",
+      "isoDate": "2026-06-08T00:00:00.000Z",
+      "categories": [
+        "open models",
+        "datasets",
+        "ML engineering"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "audio-speech",
+        "research-ml",
+        "infra-mlops",
+        "code-agents"
+      ]
+    },
+    {
+      "sourceId": "openai-news",
+      "sourceTitle": "OpenAI News",
+      "title": "Introducing the OpenAI Economic Research Exchange",
+      "link": "https://openai.com/index/economic-research-exchange",
+      "isoDate": "2026-06-08T00:00:00.000Z",
+      "summary": "OpenAI launches the Economic Research Exchange to study AI’s impact on jobs, productivity, and the economy. Applications are now open for selected research projects.",
+      "categories": [
+        "Company",
+        "frontier models",
+        "product",
+        "research"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "audio-speech",
+        "code-agents",
+        "research-ml",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "google-ai-blog",
+      "sourceTitle": "Google AI Blog",
+      "title": "The latest AI news we announced in May 2026",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+      "isoDate": "2026-06-05T14:45:00.000Z",
+      "summary": "Here are Google’s latest AI updates from May 2026",
+      "categories": [
+        "Search",
+        "Android",
+        "Google DeepMind",
+        "Google Labs",
+        "Quantum computing",
+        "Google Health",
+        "Shopping",
+        "Google Cloud",
+        "AI",
+        "Gemini App",
+        "Gemini models",
+        "Fitbit",
+        "Google Research",
+        "Gemini",
+        "research",
+        "products"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "audio-speech",
+        "research-ml",
+        "infra-mlops",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "huggingface-blog",
+      "sourceTitle": "Hugging Face Blog",
+      "title": "Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI",
+      "link": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
+      "isoDate": "2026-06-04T18:57:45.000Z",
+      "categories": [
+        "open models",
+        "datasets",
+        "ML engineering"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "audio-speech",
+        "research-ml",
+        "infra-mlops",
+        "code-agents",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "openai-news",
+      "sourceTitle": "OpenAI News",
+      "title": "How Endava is redesigning software delivery around AI agents",
+      "link": "https://openai.com/index/endava-frontiers",
+      "isoDate": "2026-06-04T12:00:00.000Z",
+      "summary": "Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows, and build an AI-native culture across the enterprise.",
+      "categories": [
+        "frontier models",
+        "product",
+        "research"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "audio-speech",
+        "code-agents",
+        "research-ml",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "openai-news",
+      "sourceTitle": "OpenAI News",
+      "title": "Dreaming: Better memory for a more helpful ChatGPT",
+      "link": "https://openai.com/index/chatgpt-memory-dreaming",
+      "isoDate": "2026-06-04T09:00:00.000Z",
+      "summary": "ChatGPT introduces a new memory system to better remember preferences, keeping context fresh and relevant across conversations.",
+      "categories": [
+        "Research",
+        "frontier models",
+        "product",
+        "research"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "audio-speech",
+        "code-agents",
+        "research-ml",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "huggingface-blog",
+      "sourceTitle": "Hugging Face Blog",
+      "title": "Designing the hf CLI as an agent-optimized way to work with the Hub",
+      "link": "https://huggingface.co/blog/hf-cli-for-agents",
+      "isoDate": "2026-06-04T00:00:00.000Z",
+      "categories": [
+        "open models",
+        "datasets",
+        "ML engineering"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "audio-speech",
+        "research-ml",
+        "infra-mlops",
+        "code-agents"
+      ]
+    },
+    {
+      "sourceId": "openai-news",
+      "sourceTitle": "OpenAI News",
+      "title": "Biodefense in the Intelligence Age",
+      "link": "https://openai.com/index/biodefense-in-the-intelligence-age",
+      "isoDate": "2026-06-04T00:00:00.000Z",
+      "summary": "An action plan for AI-powered biological resilience",
+      "categories": [
+        "Global Affairs",
+        "frontier models",
+        "product",
+        "research"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "audio-speech",
+        "code-agents",
+        "research-ml",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "openai-news",
+      "sourceTitle": "OpenAI News",
+      "title": "Introducing new capabilities to GPT-Rosalind",
+      "link": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
+      "isoDate": "2026-06-03T13:15:00.000Z",
+      "summary": "GPT-Rosalind advances life sciences research with enhanced biological reasoning, medicinal chemistry expertise, genomics analysis, and experimental workflow capabilities.",
+      "categories": [
+        "Product",
+        "frontier models",
+        "product",
+        "research"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "audio-speech",
+        "code-agents",
+        "research-ml",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "google-ai-blog",
+      "sourceTitle": "Google AI Blog",
+      "title": "5 ways Google Search can level up your thrift and vintage shopping",
+      "link": "https://blog.google/products-and-platforms/products/search/thrifting-tips/",
+      "isoDate": "2026-06-03T13:00:00.000Z",
+      "summary": "Uncover second-hand scores with AI tools in Google Search and Shopping.",
+      "categories": [
+        "Search",
+        "Shopping",
+        "AI",
+        "Gemini",
+        "research",
+        "products"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "audio-speech",
+        "research-ml",
+        "infra-mlops",
+        "governance-safety",
+        "code-agents"
+      ]
+    },
+    {
+      "sourceId": "huggingface-blog",
+      "sourceTitle": "Hugging Face Blog",
+      "title": "Direct Preference Optimization Beyond Chatbots",
+      "link": "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
+      "isoDate": "2026-06-03T12:55:11.000Z",
+      "categories": [
+        "open models",
+        "datasets",
+        "ML engineering"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "audio-speech",
+        "research-ml",
+        "infra-mlops",
+        "code-agents"
+      ]
+    },
+    {
+      "sourceId": "openai-news",
+      "sourceTitle": "OpenAI News",
+      "title": "How Wasmer used Codex to build a Node.js runtime for the edge",
+      "link": "https://openai.com/index/wasmer",
+      "isoDate": "2026-06-03T12:00:00.000Z",
+      "summary": "See how Wasmer used Codex with GPT-5.5 to build a Node.js runtime for the edge, accelerating development 10x to 20x and shipping in weeks instead of months.",
+      "categories": [
+        "frontier models",
+        "product",
+        "research"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "audio-speech",
+        "code-agents",
+        "research-ml",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "huggingface-blog",
+      "sourceTitle": "Hugging Face Blog",
+      "title": "Adding MCP Tools to Reachy Mini",
+      "link": "https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini",
+      "isoDate": "2026-06-03T00:00:00.000Z",
+      "categories": [
+        "open models",
+        "datasets",
+        "ML engineering"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "audio-speech",
+        "research-ml",
+        "infra-mlops",
+        "code-agents"
+      ]
+    },
+    {
+      "sourceId": "anthropic-news",
+      "sourceTitle": "Anthropic News",
+      "title": "Introducing the Services Track and Partner Hub of the Claude Partner Network",
+      "link": "https://www.anthropic.com/news/services-track-partner-hub",
+      "isoDate": "2026-06-02T16:00:00.000Z",
+      "summary": "Almost every large enterprise is moving AI into production, and many have discovered something important: a successful pilot is not the same as a system a business can run on. The real work—and the real opportunity—is in the integration, the evaluation, and the way people's work evolves. That's why the companies getting AI integration right are doing it with partners who have done it before. In Ma",
+      "categories": [
+        "Claude",
+        "agents",
+        "AI safety"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "code-agents",
+        "research-ml",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "anthropic-news",
+      "sourceTitle": "Anthropic News",
+      "title": "What we learned mapping a year’s worth of AI-enabled cyber threats",
+      "link": "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack",
+      "isoDate": "2026-06-02T16:00:00.000Z",
+      "summary": "As AI transforms the nature of and methods behind cyberattacks, how well do the techniques and frameworks used by the security community hold up? In a new report, we seek to answer that question. We examine 832 accounts that were banned for malicious cyber activity between March 2025 and March 2026 and map them onto MITRE ATT&CK, a longstanding database of the tactics and techniques used by cybera",
+      "categories": [
+        "Claude",
+        "agents",
+        "AI safety"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "code-agents",
+        "research-ml",
+        "governance-safety",
+        "infra-mlops"
+      ]
+    },
+    {
+      "sourceId": "huggingface-blog",
+      "sourceTitle": "Hugging Face Blog",
+      "title": "Holo3.1: Fast & Local Computer Use Agents",
+      "link": "https://huggingface.co/blog/Hcompany/holo31",
+      "isoDate": "2026-06-02T14:13:23.000Z",
+      "categories": [
+        "open models",
+        "datasets",
+        "ML engineering"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "audio-speech",
+        "research-ml",
+        "infra-mlops",
+        "code-agents"
+      ]
+    },
+    {
+      "sourceId": "google-ai-blog",
+      "sourceTitle": "Google AI Blog",
+      "title": "How we used Gemini to build Google I/O 2026",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
+      "isoDate": "2026-06-01T16:00:00.000Z",
+      "summary": "Learn how Googlers used AI to produce Google I/O 2026.",
+      "categories": [
+        "Gemini models",
+        "Google Labs",
+        "Developer tools",
+        "AI",
+        "Gemini",
+        "research",
+        "products"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "audio-speech",
+        "research-ml",
+        "infra-mlops",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "anthropic-news",
+      "sourceTitle": "Anthropic News",
+      "title": "Expanding Project Glasswing",
+      "link": "https://www.anthropic.com/news/expanding-project-glasswing",
+      "isoDate": "2026-06-01T16:00:00.000Z",
+      "summary": "Project Glasswing is our collaborative effort to secure the world’s most important software. In early April, we announced that roughly 50 initial partners had access to Claude Mythos Preview, and since then, they’ve been deploying the model to scan their codebases for vulnerabilities. We recently described how these partners have so far found more than 10,000 high- or critical-severity security fl",
+      "categories": [
+        "Claude",
+        "agents",
+        "AI safety"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "code-agents",
+        "research-ml",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "huggingface-blog",
+      "sourceTitle": "Hugging Face Blog",
+      "title": "Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains",
+      "link": "https://huggingface.co/blog/JetBrains/mellum2-launch",
+      "isoDate": "2026-06-01T15:45:17.000Z",
+      "categories": [
+        "open models",
+        "datasets",
+        "ML engineering"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "audio-speech",
+        "research-ml",
+        "infra-mlops",
+        "code-agents"
+      ]
+    },
+    {
+      "sourceId": "huggingface-blog",
+      "sourceTitle": "Hugging Face Blog",
+      "title": "Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic",
+      "link": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
+      "isoDate": "2026-06-01T13:51:18.000Z",
+      "categories": [
+        "open models",
+        "datasets",
+        "ML engineering"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "audio-speech",
+        "research-ml",
+        "infra-mlops",
+        "code-agents"
+      ]
+    },
+    {
+      "sourceId": "anthropic-news",
+      "sourceTitle": "Anthropic News",
+      "title": "Anthropic confidentially submits draft S-1 to the SEC",
+      "link": "https://www.anthropic.com/news/confidential-draft-s1-sec",
+      "isoDate": "2026-05-31T16:00:00.000Z",
+      "summary": "Today, Anthropic, PBC confidentially submitted a draft registration statement on Form S-1 to the U.S. Securities and Exchange Commission for a proposed initial public offering of our common stock. This gives us the option to go public after the SEC completes its review. The proposed initial public offering will depend on market conditions and other factors. The number of shares to be offered and t",
+      "categories": [
+        "Claude",
+        "agents",
+        "AI safety"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "code-agents",
+        "research-ml",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "google-ai-blog",
+      "sourceTitle": "Google AI Blog",
+      "title": "Take our I/O 2026 quiz, vibe coded in Google AI Studio.",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/",
+      "isoDate": "2026-05-29T19:00:00.000Z",
+      "summary": "We used Google AI Studio to vibe code a quiz about our top I/O 2026 announcements.",
+      "categories": [
+        "Developer tools",
+        "AI",
+        "Gemini",
+        "research",
+        "products"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "audio-speech",
+        "research-ml",
+        "infra-mlops",
+        "governance-safety",
+        "code-agents"
+      ]
+    },
+    {
+      "sourceId": "google-ai-blog",
+      "sourceTitle": "Google AI Blog",
+      "title": "9 demos of Gemini Omni and Gemini 3.5 in action",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
+      "isoDate": "2026-05-29T17:30:00.000Z",
+      "summary": "Watch 9 videos showing the capabilities of Gemini Omni and Gemini 3.5, announced at Google I/O 2026.",
+      "categories": [
+        "Gemini models",
+        "Google DeepMind",
+        "AI",
+        "Gemini",
+        "research",
+        "products"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "audio-speech",
+        "research-ml",
+        "infra-mlops",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "google-ai-blog",
+      "sourceTitle": "Google AI Blog",
+      "title": "Check out real-life AI prototypes from the Futures Lab.",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs/",
+      "isoDate": "2026-05-29T12:00:00.000Z",
+      "summary": "University of Waterloo students develop AI prototypes like sign language tutors to reshape the future of education and work.",
+      "categories": [
+        "Learning & Education",
+        "AI",
+        "Gemini",
+        "research",
+        "products"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "audio-speech",
+        "research-ml",
+        "infra-mlops",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "huggingface-blog",
+      "sourceTitle": "Hugging Face Blog",
+      "title": "Profiling in PyTorch (Part 1): A Beginner's Guide to torch.profiler",
+      "link": "https://huggingface.co/blog/torch-profiler",
+      "isoDate": "2026-05-29T00:00:00.000Z",
+      "categories": [
+        "open models",
+        "datasets",
+        "ML engineering"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "audio-speech",
+        "research-ml",
+        "infra-mlops",
+        "code-agents"
+      ]
+    },
+    {
+      "sourceId": "google-ai-blog",
+      "sourceTitle": "Google AI Blog",
+      "title": "Catch up on 12 major I/O 2026 moments",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos/",
+      "isoDate": "2026-05-28T15:00:00.000Z",
+      "summary": "Here are 12 of the biggest Google I/O 2026 keynote moments, including news about Gemini Omni, Gemini 3.5 Flash and more.",
+      "categories": [
+        "Search",
+        "Android",
+        "Google Labs",
+        "Shopping",
+        "AI",
+        "Gemini App",
+        "Gemini models",
+        "Gemini",
+        "research",
+        "products"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "audio-speech",
+        "research-ml",
+        "infra-mlops",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "huggingface-blog",
+      "sourceTitle": "Hugging Face Blog",
+      "title": "Reachy Mini goes fully local",
+      "link": "https://huggingface.co/blog/local-reachy-mini-conversation",
+      "isoDate": "2026-05-27T00:00:00.000Z",
+      "categories": [
+        "open models",
+        "datasets",
+        "ML engineering"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "audio-speech",
+        "research-ml",
+        "infra-mlops",
+        "code-agents"
+      ]
+    },
+    {
+      "sourceId": "huggingface-blog",
+      "sourceTitle": "Hugging Face Blog",
+      "title": "Shipping a Trillion Parameters With a Hub Bucket: Delta Weight Sync in TRL",
+      "link": "https://huggingface.co/blog/delta-weight-sync",
+      "isoDate": "2026-05-27T00:00:00.000Z",
+      "categories": [
+        "open models",
+        "datasets",
+        "ML engineering"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "audio-speech",
+        "research-ml",
+        "infra-mlops",
+        "code-agents"
+      ]
+    },
+    {
+      "sourceId": "huggingface-blog",
+      "sourceTitle": "Hugging Face Blog",
+      "title": "Harness, Scaffold, and the AI Agent Terms Worth Getting Right",
+      "link": "https://huggingface.co/blog/agent-glossary",
+      "isoDate": "2026-05-25T00:00:00.000Z",
+      "categories": [
+        "open models",
+        "datasets",
+        "ML engineering"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "audio-speech",
+        "research-ml",
+        "infra-mlops",
+        "code-agents"
+      ]
+    },
+    {
+      "sourceId": "google-ai-blog",
+      "sourceTitle": "Google AI Blog",
+      "title": "Catch up on the Dialogues stage at Google I/O 2026.",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/io-2026-dialogues-recap/",
+      "isoDate": "2026-05-22T18:00:00.000Z",
+      "summary": "A recap of the 2026 I/O Dialogues, where leaders discuss the future of AI, quantum computing, robotics and creativity.",
+      "categories": [
+        "AI",
+        "Googlers",
+        "Gemini",
+        "research",
+        "products"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "audio-speech",
+        "research-ml",
+        "infra-mlops",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "google-ai-blog",
+      "sourceTitle": "Google AI Blog",
+      "title": "We’re announcing new community investments in Missouri.",
+      "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/missouri-programs/",
+      "isoDate": "2026-05-20T20:40:00.000Z",
+      "summary": "We’re helping build the state’s next-generation workforce and investing in energy programs.",
+      "categories": [
+        "Google.org",
+        "Global Network",
+        "Creating opportunity",
+        "AI",
+        "Gemini",
+        "research",
+        "products"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "audio-speech",
+        "research-ml",
+        "infra-mlops",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "google-ai-blog",
+      "sourceTitle": "Google AI Blog",
+      "title": "100 things we announced at I/O 2026",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/",
+      "isoDate": "2026-05-20T19:30:00.000Z",
+      "summary": "We've been busy! Here’s a rundown of the top announcements, launches and demos at I/O 2026.",
+      "categories": [
+        "Search",
+        "Gemini",
+        "AI",
+        "research",
+        "products"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "audio-speech",
+        "research-ml",
+        "infra-mlops",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "google-ai-blog",
+      "sourceTitle": "Google AI Blog",
+      "title": "A new experiment brings better group meetings to Google Beam",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-beam-group-meetings/",
+      "isoDate": "2026-05-20T16:45:00.000Z",
+      "summary": "See and hear your colleagues in true-to-life size and sound, making hybrid meetings feel more inclusive and connected.",
+      "categories": [
+        "Google Workspace",
+        "Google Research",
+        "AI",
+        "Gemini",
+        "research",
+        "products"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "audio-speech",
+        "research-ml",
+        "infra-mlops",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "google-deepmind",
+      "sourceTitle": "Google DeepMind via Google Blog",
+      "title": "Running Guide agent: A step towards running unbounded",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/running-guide-agent/",
+      "isoDate": "2026-05-20T00:01:00.000Z",
+      "summary": "Running Guide agent is an AI agent that provides real-time audio navigation and obstacle detection to help BLV athletes run independently.",
+      "categories": [
+        "Accessibility",
+        "Google DeepMind",
+        "Google in Asia",
+        "research",
+        "frontier models",
+        "science"
+      ],
+      "modalitySlugs": [
+        "research-ml",
+        "text-llms",
+        "image-video",
+        "governance-safety",
+        "audio-speech",
+        "code-agents"
+      ]
+    },
+    {
+      "sourceId": "huggingface-blog",
+      "sourceTitle": "Hugging Face Blog",
+      "title": "OlmoEarth v1.1: A more efficient family of Earth observation models",
+      "link": "https://huggingface.co/blog/allenai/olmoearth-v1-1",
+      "isoDate": "2026-05-19T18:38:09.000Z",
+      "categories": [
+        "open models",
+        "datasets",
+        "ML engineering"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "audio-speech",
+        "research-ml",
+        "infra-mlops",
+        "code-agents"
+      ]
+    },
+    {
+      "sourceId": "google-deepmind",
+      "sourceTitle": "Google DeepMind via Google Blog",
+      "title": "Making it easier to understand how content was created and edited",
+      "link": "https://blog.google/innovation-and-ai/products/identifying-ai-generated-media-online/",
+      "isoDate": "2026-05-19T17:45:00.000Z",
+      "summary": "We're expanding our tools to help you understand how content was created and edited across the web.",
+      "categories": [
+        "Google Cloud",
+        "AI Products",
+        "Gemini",
+        "Google DeepMind",
+        "research",
+        "frontier models",
+        "science"
+      ],
+      "modalitySlugs": [
+        "research-ml",
+        "text-llms",
+        "image-video",
+        "governance-safety",
+        "code-agents"
+      ]
+    },
+    {
+      "sourceId": "google-deepmind",
+      "sourceTitle": "Google DeepMind via Google Blog",
+      "title": "Simulate real-world places with Project Genie and Street View",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/project-genie-expands/",
+      "isoDate": "2026-05-19T17:45:00.000Z",
+      "summary": "We’re connecting Project Genie with nearly 20 years of Google Street View imagery so you can create new worlds anchored in reality.",
+      "categories": [
+        "Maps",
+        "Google DeepMind",
+        "Google Labs",
+        "research",
+        "frontier models",
+        "science"
+      ],
+      "modalitySlugs": [
+        "research-ml",
+        "text-llms",
+        "image-video",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "google-deepmind",
+      "sourceTitle": "Google DeepMind via Google Blog",
+      "title": "Gemini for Science: AI experiments and tools for a new era of discovery",
+      "link": "https://blog.google/innovation-and-ai/technology/research/gemini-for-science-io-2026/",
+      "isoDate": "2026-05-19T17:45:00.000Z",
+      "summary": "Gemini for Science is a new collection of science tools and experiments to expand the scale and precision of scientific exploration.",
+      "categories": [
+        "Google Research",
+        "Gemini",
+        "Google Labs",
+        "Google DeepMind",
+        "research",
+        "frontier models",
+        "science"
+      ],
+      "modalitySlugs": [
+        "research-ml",
+        "text-llms",
+        "image-video",
+        "governance-safety",
+        "code-agents"
+      ]
+    },
+    {
+      "sourceId": "google-ai-blog",
+      "sourceTitle": "Google AI Blog",
+      "title": "How AI Mode is changing the way people search in the U.S.",
+      "link": "https://blog.google/products-and-platforms/products/search/ai-mode-us-insights/",
+      "isoDate": "2026-05-19T17:45:00.000Z",
+      "summary": "One year after launch, see how AI Mode’s users are shifting from keywords to natural language queries.",
+      "categories": [
+        "Search",
+        "AI",
+        "Gemini",
+        "research",
+        "products"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "audio-speech",
+        "research-ml",
+        "infra-mlops",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "google-ai-blog",
+      "sourceTitle": "Google AI Blog",
+      "title": "New ways to create and get things done in Google Workspace",
+      "link": "https://blog.google/products-and-platforms/products/workspace/workspace-updates/",
+      "isoDate": "2026-05-19T17:45:00.000Z",
+      "summary": "Announcing new voice capabilities in Gmail, Docs and Keep, a new design tool called Google Pics and updates to AI Inbox.",
+      "categories": [
+        "Google Workspace",
+        "Google One",
+        "AI",
+        "Gemini",
+        "research",
+        "products"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "audio-speech",
+        "research-ml",
+        "infra-mlops",
+        "governance-safety",
+        "code-agents"
+      ]
+    },
+    {
+      "sourceId": "google-ai-blog",
+      "sourceTitle": "Google AI Blog",
+      "title": "I/O 2026: Welcome to the agentic Gemini era",
+      "link": "https://blog.google/innovation-and-ai/sundar-pichai-io-2026/",
+      "isoDate": "2026-05-19T17:45:00.000Z",
+      "summary": "The latest from Google I/O: See how we’re helping you get more done with Gemini.",
+      "categories": [
+        "Search",
+        "Google Labs",
+        "Google Workspace",
+        "AI",
+        "Gemini App",
+        "Gemini models",
+        "Gemini",
+        "research",
+        "products"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "audio-speech",
+        "research-ml",
+        "infra-mlops",
+        "governance-safety",
+        "code-agents"
+      ]
+    },
+    {
+      "sourceId": "google-ai-blog",
+      "sourceTitle": "Google AI Blog",
+      "title": "Gemini 3.5: frontier intelligence with action",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
+      "isoDate": "2026-05-19T17:45:00.000Z",
+      "summary": "At Google I/O we released Gemini 3.5, our latest series of models combining frontier intelligence with action.",
+      "categories": [
+        "Gemini models",
+        "AI",
+        "Gemini",
+        "research",
+        "products"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "audio-speech",
+        "research-ml",
+        "infra-mlops",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "google-ai-blog",
+      "sourceTitle": "Google AI Blog",
+      "title": "A new era for AI Search",
+      "link": "https://blog.google/products-and-platforms/products/search/search-io-2026/",
+      "isoDate": "2026-05-19T17:45:00.000Z",
+      "summary": "We shared the next step in our journey to bring together the best of a search engine with the best of AI.",
+      "categories": [
+        "Search",
+        "AI",
+        "Gemini",
+        "research",
+        "products"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "audio-speech",
+        "research-ml",
+        "infra-mlops",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "google-ai-blog",
+      "sourceTitle": "Google AI Blog",
+      "title": "Everything new in our Google AI subscriptions, fresh from I/O 2026",
+      "link": "https://blog.google/products-and-platforms/products/google-one/google-ai-subscriptions/",
+      "isoDate": "2026-05-19T17:45:00.000Z",
+      "summary": "Introducing a $100 AI Ultra plan — plus, new features and benefits for Google AI Plus, Pro and Ultra subscribers.",
+      "categories": [
+        "Google One",
+        "Gemini",
+        "YouTube",
+        "AI",
+        "research",
+        "products"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "audio-speech",
+        "research-ml",
+        "infra-mlops",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "google-ai-blog",
+      "sourceTitle": "Google AI Blog",
+      "title": "I/O 2026",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-collection/",
+      "isoDate": "2026-05-19T17:45:00.000Z",
+      "summary": "At Google I/O 2026, we shared how we’re making AI more helpful for everyone. See everything we announced.",
+      "categories": [
+        "Gemini App",
+        "Gemini models",
+        "Developer tools",
+        "AI",
+        "Gemini",
+        "research",
+        "products"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "audio-speech",
+        "research-ml",
+        "infra-mlops",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "huggingface-blog",
+      "sourceTitle": "Hugging Face Blog",
+      "title": "Introducing the Ettin Reranker Family",
+      "link": "https://huggingface.co/blog/ettin-reranker",
+      "isoDate": "2026-05-19T00:00:00.000Z",
+      "categories": [
+        "open models",
+        "datasets",
+        "ML engineering"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "audio-speech",
+        "research-ml",
+        "infra-mlops",
+        "code-agents"
+      ]
+    },
+    {
+      "sourceId": "huggingface-blog",
+      "sourceTitle": "Hugging Face Blog",
+      "title": "PaddleOCR 3.5: Running OCR and Document Parsing Tasks with a Transformers Backend",
+      "link": "https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers",
+      "isoDate": "2026-05-18T15:12:46.000Z",
+      "categories": [
+        "open models",
+        "datasets",
+        "ML engineering"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "audio-speech",
+        "research-ml",
+        "infra-mlops",
+        "code-agents"
+      ]
+    },
+    {
+      "sourceId": "google-deepmind",
+      "sourceTitle": "Google DeepMind via Google Blog",
+      "title": "We’re launching the Google DeepMind Accelerator program in Asia Pacific to tackle environmental risks.",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/accelerator-ai-for-the-planet/",
+      "isoDate": "2026-05-17T18:00:00.000Z",
+      "summary": "The Asia-Pacific region is a global engine for economic growth, but it's also highly vulnerable to climate change. While green technologies are gaining momentum, a recen…",
+      "categories": [
+        "Google DeepMind",
+        "Google in Asia",
+        "research",
+        "frontier models",
+        "science"
+      ],
+      "modalitySlugs": [
+        "research-ml",
+        "text-llms",
+        "image-video",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "google-ai-blog",
+      "sourceTitle": "Google AI Blog",
+      "title": "The new AI-powered Google Finance is expanding to Europe.",
+      "link": "https://blog.google/products-and-platforms/products/search/ai-powered-google-finance-in-europe/",
+      "isoDate": "2026-05-11T06:00:00.000Z",
+      "summary": "This week, the new, AI-powered Google Finance is launching across Europe, with full local language support. This reimagined experience offers a suite of powerful capabil…",
+      "categories": [
+        "Search",
+        "AI",
+        "Gemini",
+        "research",
+        "products"
+      ],
+      "modalitySlugs": [
+        "text-llms",
+        "image-video",
+        "audio-speech",
+        "research-ml",
+        "infra-mlops",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "google-deepmind",
+      "sourceTitle": "Google DeepMind via Google Blog",
+      "title": "Find out how AlphaEvolve has gone from research to solving real-life problems.",
+      "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/alphaevolve-updates/",
+      "isoDate": "2026-05-07T15:00:00.000Z",
+      "summary": "AlphaEvolve has become a powerful engine for scientific and societal progress.",
+      "categories": [
+        "Google Cloud",
+        "Google DeepMind",
+        "research",
+        "frontier models",
+        "science"
+      ],
+      "modalitySlugs": [
+        "research-ml",
+        "text-llms",
+        "image-video",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "google-deepmind",
+      "sourceTitle": "Google DeepMind via Google Blog",
+      "title": "Join the new AI Agents Vibe Coding Course from Google and Kaggle",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-genai-intensive-course-vibe-coding-june-2026/",
+      "isoDate": "2026-04-27T13:00:00.000Z",
+      "summary": "Google is bringing back its 5-Day AI Agents Intensive Course with Kaggle and registration is open.",
+      "categories": [
+        "Google DeepMind",
+        "Developer tools",
+        "Google Cloud",
+        "AI",
+        "Gemini models",
+        "research",
+        "frontier models",
+        "science"
+      ],
+      "modalitySlugs": [
+        "research-ml",
+        "text-llms",
+        "image-video",
+        "governance-safety",
+        "code-agents"
+      ]
+    },
+    {
+      "sourceId": "google-deepmind",
+      "sourceTitle": "Google DeepMind via Google Blog",
+      "title": "Gemini Robotics ER-1.6 enhances reasoning to help robots navigate real-world tasks.",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-robotics-er-1-6/",
+      "isoDate": "2026-04-14T15:00:00.000Z",
+      "summary": "An overview of Gemini Robotics-ER 1.6, an upgrade to our reasoning-first model that helps robots to understand their environment.",
+      "categories": [
+        "Google DeepMind",
+        "research",
+        "frontier models",
+        "science"
+      ],
+      "modalitySlugs": [
+        "research-ml",
+        "text-llms",
+        "image-video",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "google-deepmind",
+      "sourceTitle": "Google DeepMind via Google Blog",
+      "title": "The latest AI news we announced in March 2026",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-march-2026/",
+      "isoDate": "2026-04-01T13:00:00.000Z",
+      "summary": "Here are Google’s latest AI updates from March 2026",
+      "categories": [
+        "Search",
+        "Translate",
+        "Google DeepMind",
+        "Developer tools",
+        "Google Workspace",
+        "AI",
+        "Pixel",
+        "Gemini App",
+        "Gemini models",
+        "Fitbit",
+        "Maps",
+        "Health",
+        "research",
+        "frontier models",
+        "science"
+      ],
+      "modalitySlugs": [
+        "research-ml",
+        "text-llms",
+        "image-video",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "google-deepmind",
+      "sourceTitle": "Google DeepMind via Google Blog",
+      "title": "Measuring progress toward AGI: A cognitive framework",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/measuring-agi-cognitive-framework/",
+      "isoDate": "2026-03-17T16:00:00.000Z",
+      "summary": "Google DeepMind proposes a cognitive framework to evaluate AGI and launches a Kaggle hackathon to build capability benchmarks",
+      "categories": [
+        "Google DeepMind",
+        "research",
+        "frontier models",
+        "science"
+      ],
+      "modalitySlugs": [
+        "research-ml",
+        "text-llms",
+        "image-video",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "google-deepmind",
+      "sourceTitle": "Google DeepMind via Google Blog",
+      "title": "Broadening advanced AI education across Africa",
+      "link": "https://blog.google/company-news/inside-google/around-the-globe/google-africa/ai-research-foundations/",
+      "isoDate": "2026-03-17T08:00:00.000Z",
+      "summary": "Google DeepMind, Google.org, and Google Skills unite to empower the next generation of AI researchers and educators with a free, high-impact curriculum.",
+      "categories": [
+        "Google in Africa",
+        "Google.org",
+        "Google Research",
+        "Google DeepMind",
+        "research",
+        "frontier models",
+        "science"
+      ],
+      "modalitySlugs": [
+        "research-ml",
+        "text-llms",
+        "image-video",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "google-deepmind",
+      "sourceTitle": "Google DeepMind via Google Blog",
+      "title": "Platform 37 and The AI Exchange: new spaces for AI innovation and discovery",
+      "link": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/platform-37-the-ai-exchange/",
+      "isoDate": "2026-03-12T10:00:00.000Z",
+      "summary": "Google’s newest London building, Platform 37, is named to honor Google DeepMind’s AlphaGo.",
+      "categories": [
+        "UK",
+        "Google DeepMind",
+        "research",
+        "frontier models",
+        "science"
+      ],
+      "modalitySlugs": [
+        "research-ml",
+        "text-llms",
+        "image-video",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "google-deepmind",
+      "sourceTitle": "Google DeepMind via Google Blog",
+      "title": "The latest AI news we announced in February",
+      "link": "https://blog.google/innovation-and-ai/products/google-ai-updates-february-2026/",
+      "isoDate": "2026-03-05T16:30:00.000Z",
+      "summary": "Here are Google’s latest AI updates from February 2026",
+      "categories": [
+        "A message from our CEO",
+        "Google DeepMind",
+        "Developer tools",
+        "Google Labs",
+        "Google.org",
+        "Google Cloud",
+        "Gemini",
+        "AI",
+        "Pixel",
+        "Gemini App",
+        "Gemini models",
+        "Google Research",
+        "Safety & Security",
+        "Grow with Google",
+        "research",
+        "frontier models",
+        "science"
+      ],
+      "modalitySlugs": [
+        "research-ml",
+        "text-llms",
+        "image-video",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "google-deepmind",
+      "sourceTitle": "Google DeepMind via Google Blog",
+      "title": "Create new worlds in Project Genie with these 4 tips",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/tips-prompt-writing-project-genie/",
+      "isoDate": "2026-03-03T17:00:00.000Z",
+      "summary": "Learn more about Google DeepMind’s Project Genie and how to write prompts to create your own worlds.",
+      "categories": [
+        "Google DeepMind",
+        "AI",
+        "research",
+        "frontier models",
+        "science"
+      ],
+      "modalitySlugs": [
+        "research-ml",
+        "text-llms",
+        "image-video",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "google-deepmind",
+      "sourceTitle": "Google DeepMind via Google Blog",
+      "title": "Ask a Techspert: What’s a world model?",
+      "link": "https://blog.google/company-news/inside-google/googlers/ask-a-techspert/what-is-a-world-model-project-genie/",
+      "isoDate": "2026-02-25T17:00:00.000Z",
+      "summary": "Learn more about Google’s Project Genie, as well as what makes a world model and what it can do.",
+      "categories": [
+        "Ask a Techspert",
+        "Google DeepMind",
+        "research",
+        "frontier models",
+        "science"
+      ],
+      "modalitySlugs": [
+        "research-ml",
+        "text-llms",
+        "image-video",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "the-gradient",
+      "sourceTitle": "The Gradient",
+      "title": "After Orthogonality: Virtue-Ethical Agency and AI Alignment",
+      "link": "https://thegradient.pub/virtue-ethics-ai-alignment/",
+      "isoDate": "2026-02-18T23:25:52.000Z",
+      "summary": "Preface This essay argues that rational people don’t have goals, and that rational AIs shouldn’t have goals. Human actions are rational not because we direct them at some final ‘goals,’ but because we align actions to practices[1]: networks of actions, action-dispositions, action-evaluation criteria,",
+      "categories": [
+        "Ethics",
+        "Human factors",
+        "Impacts",
+        "analysis",
+        "research commentary"
+      ],
+      "modalitySlugs": [
+        "research-ml",
+        "text-llms",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "google-deepmind",
+      "sourceTitle": "Google DeepMind via Google Blog",
+      "title": "Gemini 3 Deep Think: Advancing science, research and engineering",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think/",
+      "isoDate": "2026-02-12T16:13:00.000Z",
+      "summary": "We’re releasing a major upgrade to Gemini 3 Deep Think, our specialized reasoning mode.",
+      "categories": [
+        "Gemini models",
+        "Google One",
+        "Google DeepMind",
+        "AI",
+        "research",
+        "frontier models",
+        "science"
+      ],
+      "modalitySlugs": [
+        "research-ml",
+        "text-llms",
+        "image-video",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "google-deepmind",
+      "sourceTitle": "Google DeepMind via Google Blog",
+      "title": "The latest AI news we announced in January",
+      "link": "https://blog.google/innovation-and-ai/products/google-ai-updates-january-2026/",
+      "isoDate": "2026-02-04T16:55:00.000Z",
+      "summary": "Google AI announcements from January",
+      "categories": [
+        "Search",
+        "Chrome",
+        "Arts & Culture",
+        "Google Ads",
+        "Google DeepMind",
+        "Developer tools",
+        "Gmail",
+        "Learning & Education",
+        "Shopping",
+        "Gemini",
+        "Google Cloud",
+        "AI",
+        "Gemini App",
+        "research",
+        "frontier models",
+        "science"
+      ],
+      "modalitySlugs": [
+        "research-ml",
+        "text-llms",
+        "image-video",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "google-deepmind",
+      "sourceTitle": "Google DeepMind via Google Blog",
+      "title": "Advancing AI benchmarking with Game Arena",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/kaggle-game-arena-updates/",
+      "isoDate": "2026-02-02T17:00:00.000Z",
+      "summary": "We’re expanding Game Arena with Poker and Werewolf, while Gemini 3 Pro and Flash top our chess leaderboard.",
+      "categories": [
+        "Google DeepMind",
+        "AI",
+        "research",
+        "frontier models",
+        "science"
+      ],
+      "modalitySlugs": [
+        "research-ml",
+        "text-llms",
+        "image-video",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "the-gradient",
+      "sourceTitle": "The Gradient",
+      "title": "AGI Is Not Multimodal",
+      "link": "https://thegradient.pub/agi-is-not-multimodal/",
+      "isoDate": "2025-06-04T14:00:29.000Z",
+      "summary": "\"In projecting language back as the model for thought, we lose sight of the tacit embodied understanding that undergirds our intelligence.\" –Terry Winograd The recent successes of generative AI models have convinced some that AGI is imminent. While these models appear to capture the essence of human",
+      "categories": [
+        "Perspectives",
+        "Trends",
+        "analysis",
+        "research commentary"
+      ],
+      "modalitySlugs": [
+        "research-ml",
+        "text-llms",
+        "governance-safety",
+        "image-video"
+      ]
+    },
+    {
+      "sourceId": "the-gradient",
+      "sourceTitle": "The Gradient",
+      "title": "Shape, Symmetries, and Structure: The Changing Role of Mathematics in Machine Learning Research",
+      "link": "https://thegradient.pub/shape-symmetry-structure/",
+      "isoDate": "2024-11-16T16:46:15.000Z",
+      "summary": "What is the Role of Mathematics in Modern Machine Learning? The past decade has witnessed a shift in how progress is made in machine learning. Research involving carefully designed and mathematically principled architectures result in only marginal improvements while compute-intensive and engineering-first efforts that scale to ever larger training sets",
+      "categories": [
+        "analysis",
+        "research commentary"
+      ],
+      "modalitySlugs": [
+        "research-ml",
+        "text-llms",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "the-gradient",
+      "sourceTitle": "The Gradient",
+      "title": "What's Missing From LLM Chatbots: A Sense of Purpose",
+      "link": "https://thegradient.pub/dialog/",
+      "isoDate": "2024-09-09T17:28:48.000Z",
+      "summary": "LLM-based chatbots’ capabilities have been advancing every month. These improvements are mostly measured by benchmarks like MMLU, HumanEval, and MATH (e.g. sonnet 3.5, gpt-4o). However, as these measures get more and more saturated, is user experience increasing in proportion to these scores? If we envision a future",
+      "categories": [
+        "analysis",
+        "research commentary"
+      ],
+      "modalitySlugs": [
+        "research-ml",
+        "text-llms",
+        "governance-safety",
+        "image-video"
+      ]
+    },
+    {
+      "sourceId": "the-gradient",
+      "sourceTitle": "The Gradient",
+      "title": "We Need Positive Visions for AI Grounded in Wellbeing",
+      "link": "https://thegradient.pub/we-need-positive-visions-for-ai-grounded-in-wellbeing/",
+      "isoDate": "2024-08-03T17:00:43.000Z",
+      "summary": "Introduction Imagine yourself a decade ago, jumping directly into the present shock of conversing naturally with an encyclopedic AI that crafts images, writes code, and debates philosophy. Won’t this technology almost certainly transform society — and hasn’t AI’s impact on us so far been",
+      "categories": [
+        "Perspectives",
+        "Ethics",
+        "Impacts",
+        "analysis",
+        "research commentary"
+      ],
+      "modalitySlugs": [
+        "research-ml",
+        "text-llms",
+        "governance-safety",
+        "image-video",
+        "code-agents"
+      ]
+    },
+    {
+      "sourceId": "the-gradient",
+      "sourceTitle": "The Gradient",
+      "title": "Financial Market Applications of LLMs",
+      "link": "https://thegradient.pub/financial-market-applications-of-llms/",
+      "isoDate": "2024-04-20T17:57:39.000Z",
+      "summary": "The AI revolution drove frenzied investment in both private and public companies and captured the public’s imagination in 2023. Transformational consumer products like ChatGPT are powered by Large Language Models (LLMs) that excel at modeling sequences of tokens that represent words or parts of words [2]. Amazingly, structural",
+      "categories": [
+        "LLM",
+        "Overviews",
+        "analysis",
+        "research commentary"
+      ],
+      "modalitySlugs": [
+        "research-ml",
+        "text-llms",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "the-gradient",
+      "sourceTitle": "The Gradient",
+      "title": "A Brief Overview of Gender Bias in AI",
+      "link": "https://thegradient.pub/gender-bias-in-ai/",
+      "isoDate": "2024-04-08T15:54:53.000Z",
+      "summary": "A brief overview and discussion on gender bias in AI",
+      "categories": [
+        "Ethics",
+        "Overviews",
+        "analysis",
+        "research commentary"
+      ],
+      "modalitySlugs": [
+        "research-ml",
+        "text-llms",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "the-gradient",
+      "sourceTitle": "The Gradient",
+      "title": "Mamba Explained",
+      "link": "https://thegradient.pub/mamba-explained/",
+      "isoDate": "2024-03-28T01:24:43.000Z",
+      "summary": "Is Attention all you need? Mamba, a novel AI model based on State Space Models (SSMs), emerges as a formidable alternative to the widely used Transformer models, addressing their inefficiency in processing long sequences.",
+      "categories": [
+        "Deep Learning",
+        "Reinforcement Learning",
+        "Overviews",
+        "analysis",
+        "research commentary"
+      ],
+      "modalitySlugs": [
+        "research-ml",
+        "text-llms",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "the-gradient",
+      "sourceTitle": "The Gradient",
+      "title": "Car-GPT: Could LLMs finally make self-driving cars happen?",
+      "link": "https://thegradient.pub/car-gpt/",
+      "isoDate": "2024-03-08T16:55:18.000Z",
+      "summary": "Exploring the utility of large language models in autonomous driving: Can they be trusted for self-driving cars, and what are the key challenges?",
+      "categories": [
+        "LLM",
+        "Perspectives",
+        "analysis",
+        "research commentary"
+      ],
+      "modalitySlugs": [
+        "research-ml",
+        "text-llms",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "the-gradient",
+      "sourceTitle": "The Gradient",
+      "title": "Do text embeddings perfectly encode text?",
+      "link": "https://thegradient.pub/text-embedding-inversion/",
+      "isoDate": "2024-03-05T20:15:58.000Z",
+      "summary": "'Vec2text' can serve as a solution for accurately reverting embeddings back into text, thus highlighting the urgent need for revisiting security protocols around embedded data.",
+      "categories": [
+        "Interpretability",
+        "LLM",
+        "NLP",
+        "analysis",
+        "research commentary"
+      ],
+      "modalitySlugs": [
+        "research-ml",
+        "text-llms",
+        "governance-safety",
+        "code-agents"
+      ]
+    },
+    {
+      "sourceId": "the-gradient",
+      "sourceTitle": "The Gradient",
+      "title": "Why Doesn’t My Model Work?",
+      "link": "https://thegradient.pub/why-doesnt-my-model-work/",
+      "isoDate": "2024-02-24T18:41:54.000Z",
+      "summary": "Have you ever trained a model you thought was good, but then it failed miserably when applied to real world data? If so, you’re in good company.",
+      "categories": [
+        "Machine Learning",
+        "Overviews",
+        "analysis",
+        "research commentary"
+      ],
+      "modalitySlugs": [
+        "research-ml",
+        "text-llms",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "the-gradient",
+      "sourceTitle": "The Gradient",
+      "title": "Deep learning for single-cell sequencing: a microscope to see the diversity of cells",
+      "link": "https://thegradient.pub/deep-learning-for-single-cell-sequencing-a-microscope-to-uncover-the-rich-diversity-of-individual-cells/",
+      "isoDate": "2024-01-13T18:12:44.000Z",
+      "summary": "On the the pivotal role that Deep Learning has played as a key enabler for advancing single-cell sequencing technologies.",
+      "categories": [
+        "Overviews",
+        "Science",
+        "analysis",
+        "research commentary"
+      ],
+      "modalitySlugs": [
+        "research-ml",
+        "text-llms",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "the-gradient",
+      "sourceTitle": "The Gradient",
+      "title": "Salmon in the Loop",
+      "link": "https://thegradient.pub/salmon-in-the-loop/",
+      "isoDate": "2023-12-16T17:00:36.000Z",
+      "summary": "On fish counting – a complex sociotechnical problem in a field that is going through the process of digital transformation.",
+      "categories": [
+        "Machine Learning",
+        "Overviews",
+        "analysis",
+        "research commentary"
+      ],
+      "modalitySlugs": [
+        "research-ml",
+        "text-llms",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "the-gradient",
+      "sourceTitle": "The Gradient",
+      "title": "Neural algorithmic reasoning",
+      "link": "https://thegradient.pub/neural-algorithmic-reasoning/",
+      "isoDate": "2023-10-14T15:30:15.000Z",
+      "summary": "In this article, we will talk about classical computation: the kind of computation typically found in an undergraduate Computer Science course on Algorithms and Data Structures [1]. Think shortest path-finding, sorting, clever ways to break problems down into simpler problems, incredible ways to organise data for efficient retrieval and updates.",
+      "categories": [
+        "Machine Learning",
+        "Overviews",
+        "analysis",
+        "research commentary"
+      ],
+      "modalitySlugs": [
+        "research-ml",
+        "text-llms",
+        "governance-safety"
+      ]
+    },
+    {
+      "sourceId": "the-gradient",
+      "sourceTitle": "The Gradient",
+      "title": "The Artificiality of Alignment",
+      "link": "https://thegradient.pub/the-artificiality-of-alignment/",
+      "isoDate": "2023-10-07T16:00:15.000Z",
+      "summary": "This essay first appeared in Reboot. Credulous, breathless coverage of “AI existential risk” (abbreviated “x-risk”) has reached the mainstream. Who could have foreseen that the smallcaps onomatopoeia “ꜰᴏᴏᴍ” — both evocative of and directly derived from children’s cartoons —",
+      "categories": [
+        "Ethics",
+        "Impacts",
+        "Perspectives",
+        "analysis",
+        "research commentary"
+      ],
+      "modalitySlugs": [
+        "research-ml",
+        "text-llms",
+        "governance-safety"
+      ]
+    }
+  ],
+  "errors": []
+}

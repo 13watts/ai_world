@@ -135,3 +135,27 @@ MAX_ITEMS_PER_FEED=20
 - Add per-feed enable/disable flags
 - Add article tagging review workflow
 - Add image thumbnails using OpenGraph metadata
+
+## Feed cleanup patches
+
+The project includes patch scripts for known feed refresh warnings:
+
+```bash
+bash patches/apply-feed-cleanups.sh
+```
+
+The individual scripts are:
+
+```bash
+bash patches/001-feed-source-cleanups.sh
+bash patches/002-harden-feed-refresh.sh
+bash patches/003-add-feed-validator.sh
+```
+
+After patching, validate the feeds with:
+
+```bash
+npm run validate:feeds
+```
+
+The fixes replace dead Anthropic and Google DeepMind RSS URLs, add fallback RSS URLs, and sanitize malformed XML ampersands before parsing feeds such as Papers with Code.

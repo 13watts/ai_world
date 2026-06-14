@@ -13,11 +13,12 @@ export const feedSources: FeedSource[] = [
   {
     id: 'anthropic-news',
     title: 'Anthropic News',
-    url: 'https://www.anthropic.com/news/rss.xml',
+    url: 'https://rsshub.app/anthropic/news',
     homepage: 'https://www.anthropic.com/news',
+    fallbackUrls: ['https://rsshub.rssforever.com/anthropic/news'],
     modalitySlugs: ['text-llms', 'code-agents', 'research-ml', 'governance-safety'],
     tags: ['Claude', 'agents', 'AI safety'],
-    reliability: 'official'
+    reliability: 'community'
   },
   {
     id: 'google-ai-blog',
@@ -30,9 +31,10 @@ export const feedSources: FeedSource[] = [
   },
   {
     id: 'google-deepmind',
-    title: 'Google DeepMind Blog',
-    url: 'https://deepmind.google/discover/blog/rss.xml',
-    homepage: 'https://deepmind.google/discover/blog/',
+    title: 'Google DeepMind via Google Blog',
+    url: 'https://blog.google/innovation-and-ai/models-and-research/google-deepmind/rss/',
+    homepage: 'https://blog.google/innovation-and-ai/models-and-research/google-deepmind/',
+    fallbackUrls: ['https://blog.google/technology/ai/rss/'],
     modalitySlugs: ['research-ml', 'text-llms', 'image-video', 'governance-safety'],
     tags: ['research', 'frontier models', 'science'],
     reliability: 'official'
@@ -99,14 +101,5 @@ export const feedSources: FeedSource[] = [
     modalitySlugs: ['research-ml', 'text-llms', 'governance-safety'],
     tags: ['analysis', 'research commentary'],
     reliability: 'editorial'
-  },
-  {
-    id: 'papers-with-code',
-    title: 'Papers with Code',
-    url: 'https://paperswithcode.com/rss',
-    homepage: 'https://paperswithcode.com/',
-    modalitySlugs: ['research-ml', 'code-agents'],
-    tags: ['papers', 'code', 'benchmarks'],
-    reliability: 'research'
   }
 ];

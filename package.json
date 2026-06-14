@@ -8,7 +8,8 @@
     "build": "tsc && node scripts/copy-assets.mjs",
     "start": "node dist/server.js",
     "refresh:feeds": "tsx scripts/refresh-feeds.ts",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "validate:feeds": "tsx scripts/validate-feeds.ts"
   },
   "dependencies": {
     "@types/node-cron": "^3.0.11",
