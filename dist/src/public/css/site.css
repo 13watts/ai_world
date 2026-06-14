@@ -60,3 +60,35 @@ th { color: var(--muted); background: var(--panel-2); }
   .site-header, .section-heading { align-items: flex-start; flex-direction: column; }
   .two-column { grid-template-columns: 1fr; }
 }
+
+.panel {
+  background: #ffffff;
+  border: 1px solid #d7dde8;
+  border-radius: 16px;
+  padding: 1.25rem;
+  margin: 1.5rem 0;
+}
+
+.feed-form {
+  display: grid;
+  gap: 1rem;
+  max-width: 760px;
+}
+
+.feed-form label {
+  display: grid;
+  gap: 0.35rem;
+  font-weight: 700;
+}
+
+.feed-form input {
+  border: 1px solid #b8c2d6;
+  border-radius: 10px;
+  font: inherit;
+  padding: 0.7rem 0.85rem;
+}
+
+.feed-item.success {
+  border-left: 4px solid #1a7f37;
+}
+

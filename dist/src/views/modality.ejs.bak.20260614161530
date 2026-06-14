@@ -16,14 +16,15 @@
 
       <h2>Latest resources</h2>
       <div class="feed-list">
-        <% if (items.length === 0) { %><p>No feed items found for this modality yet.</p><% } %>
+        <% if (items.length === 0) { %>
+          <p>No feed items found for this modality yet.</p>
+        <% } %>
         <% items.forEach((item) => { %>
           <article class="feed-item">
             <h3><a href="<%= item.link %>" target="_blank" rel="noopener noreferrer"><%= item.title %></a></h3>
             <p class="meta"><%= item.sourceTitle %><% if (item.isoDate) { %> · <%= new Date(item.isoDate).toLocaleDateString() %><% } %></p>
             <% if (item.summary) { %><p><%= item.summary %></p><% } %>
             <p class="tags"><%= item.categories.slice(0, 6).join(' · ') %></p>
-            <p class="meta">Routed to: <%= item.modalitySlugs.join(', ') %></p>
           </article>
         <% }) %>
       </div>
@@ -35,7 +36,6 @@
         <article class="source">
           <h3><a href="<%= source.homepage %>" target="_blank" rel="noopener noreferrer"><%= source.title %></a></h3>
           <p><%= source.reliability %> · <%= source.tags.join(', ') %></p>
-          <p class="meta">Modalities: <%= source.modalitySlugs.join(', ') %></p>
         </article>
       <% }) %>
     </aside>

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T20:00:02.903Z",
+  "updatedAt": "2026-06-14T20:18:53.762Z",
   "items": [
     {
       "sourceId": "huggingface-blog",
@@ -13,12 +13,7 @@
         "ML engineering"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "audio-speech",
-        "research-ml",
-        "infra-mlops",
-        "code-agents"
+        "research-ml"
       ]
     },
     {
@@ -35,9 +30,6 @@
         "policy"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "research-ml",
         "governance-safety"
       ]
     },
@@ -56,9 +48,6 @@
         "policy"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "research-ml",
         "governance-safety"
       ]
     },
@@ -76,12 +65,8 @@
         "research"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "audio-speech",
         "code-agents",
-        "research-ml",
-        "governance-safety"
+        "research-ml"
       ]
     },
     {
@@ -101,9 +86,6 @@
         "policy"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "research-ml",
         "governance-safety"
       ]
     },
@@ -124,9 +106,6 @@
         "policy"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "research-ml",
         "governance-safety"
       ]
     },
@@ -143,12 +122,7 @@
         "research"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "audio-speech",
-        "code-agents",
-        "research-ml",
-        "governance-safety"
+        "research-ml"
       ]
     },
     {
@@ -168,69 +142,7 @@
         "products"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "audio-speech",
-        "research-ml",
-        "infra-mlops",
-        "governance-safety"
-      ]
-    },
-    {
-      "sourceId": "anthropic-news",
-      "sourceTitle": "Anthropic News",
-      "title": "Statement on the US government directive to suspend access to Fable 5 and Mythos 5",
-      "link": "https://www.anthropic.com/news/fable-mythos-access",
-      "isoDate": "2026-06-11T16:00:00.000Z",
-      "summary": "The US government, citing national security authorities, has issued an export control directive to suspend all access to Fable 5 and Mythos 5 by any foreign national, whether inside or outside the United States, including foreign national Anthropic employees. The net effect of this order is that we must abruptly disable Fable 5 and Mythos 5 for all our customers to ensure compliance. Access to all",
-      "categories": [
-        "Claude",
-        "agents",
-        "AI safety"
-      ],
-      "modalitySlugs": [
-        "text-llms",
-        "code-agents",
-        "research-ml",
-        "governance-safety"
-      ]
-    },
-    {
-      "sourceId": "anthropic-news",
-      "sourceTitle": "Anthropic News",
-      "title": "Results from the first Anthropic Public Record",
-      "link": "https://www.anthropic.com/news/anthropic-public-record",
-      "isoDate": "2026-06-11T16:00:00.000Z",
-      "summary": "We’re conducting a new survey series, Anthropic Public Record, to understand how the public thinks and feels about AI, and presenting a snapshot of the results from the first wave, fielded in November and December of 2025 with nearly 52,000 Americans. We found: Nearly half (48%) of Americans ranked curing diseases like cancer or Alzheimer’s as one of their top three hopes for AI, followed by helpi",
-      "categories": [
-        "Claude",
-        "agents",
-        "AI safety"
-      ],
-      "modalitySlugs": [
-        "text-llms",
-        "code-agents",
-        "research-ml",
-        "governance-safety"
-      ]
-    },
-    {
-      "sourceId": "anthropic-news",
-      "sourceTitle": "Anthropic News",
-      "title": "TCS and Anthropic partner to bring Claude to regulated industries",
-      "link": "https://www.anthropic.com/news/tcs-anthropic-partnership",
-      "isoDate": "2026-06-11T16:00:00.000Z",
-      "summary": "We’re announcing a partnership with Tata Consultancy Services (TCS), one of the world’s largest technology services companies. TCS will provide Claude to 50,000 of its own employees across 56 countries; build Claude-powered products for clients in financial services, healthcare, the public sector, and other regulated industries; and join the Claude Partner Network, our network of consulting and se",
-      "categories": [
-        "Claude",
-        "agents",
-        "AI safety"
-      ],
-      "modalitySlugs": [
-        "text-llms",
-        "code-agents",
-        "research-ml",
-        "governance-safety"
+        "research-ml"
       ]
     },
     {
@@ -247,9 +159,6 @@
         "policy"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "research-ml",
         "governance-safety"
       ]
     },
@@ -269,11 +178,8 @@
         "policy"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "research-ml",
-        "governance-safety",
-        "code-agents"
+        "code-agents",
+        "governance-safety"
       ]
     },
     {
@@ -291,9 +197,6 @@
         "policy"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "research-ml",
         "governance-safety"
       ]
     },
@@ -312,9 +215,6 @@
         "policy"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "research-ml",
         "governance-safety"
       ]
     },
@@ -335,11 +235,7 @@
         "policy"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "research-ml",
-        "governance-safety",
-        "audio-speech"
+        "governance-safety"
       ]
     },
     {
@@ -354,12 +250,7 @@
         "ML engineering"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "audio-speech",
-        "research-ml",
-        "infra-mlops",
-        "code-agents"
+        "research-ml"
       ]
     },
     {
@@ -376,12 +267,7 @@
         "research"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "audio-speech",
-        "code-agents",
-        "research-ml",
-        "governance-safety"
+        "research-ml"
       ]
     },
     {
@@ -398,12 +284,7 @@
         "research"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "audio-speech",
-        "code-agents",
-        "research-ml",
-        "governance-safety"
+        "research-ml"
       ]
     },
     {
@@ -419,12 +300,7 @@
         "research"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "audio-speech",
-        "code-agents",
-        "research-ml",
-        "governance-safety"
+        "research-ml"
       ]
     },
     {
@@ -441,12 +317,8 @@
         "research"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "audio-speech",
         "code-agents",
-        "research-ml",
-        "governance-safety"
+        "research-ml"
       ]
     },
     {
@@ -463,48 +335,6 @@
         "research"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "audio-speech",
-        "code-agents",
-        "research-ml",
-        "governance-safety"
-      ]
-    },
-    {
-      "sourceId": "anthropic-news",
-      "sourceTitle": "Anthropic News",
-      "title": "DXC will integrate Claude into the systems banks, airlines, and other regulated industries rely on",
-      "link": "https://www.anthropic.com/news/dxc-anthropic-alliance",
-      "isoDate": "2026-06-10T16:00:00.000Z",
-      "summary": "We’re announcing a multi-year global alliance with DXC Technology, one of the world’s largest IT services companies. DXC will train tens of thousands of Claude-certified forward-deployed engineers (FDEs)—engineers embedded directly inside customer organizations—to bring Claude into the systems DXC operates for the world’s largest banks, airlines, insurers, manufacturers, and government agencies. T",
-      "categories": [
-        "Claude",
-        "agents",
-        "AI safety"
-      ],
-      "modalitySlugs": [
-        "text-llms",
-        "code-agents",
-        "research-ml",
-        "governance-safety"
-      ]
-    },
-    {
-      "sourceId": "anthropic-news",
-      "sourceTitle": "Anthropic News",
-      "title": "Introducing Claude Corps",
-      "link": "https://www.anthropic.com/news/claude-corps",
-      "isoDate": "2026-06-10T16:00:00.000Z",
-      "summary": "We’re launching Claude Corps, a national fellowship program for people early in their careers who are passionate about extending the benefits of AI to communities across America. We’ll teach 1,000 fellows how to use Claude well, match them with nonprofits across America, and pay them to spend a year—full-time, in-person—helping host organizations to advance their missions. Our goals are twofold: t",
-      "categories": [
-        "Claude",
-        "agents",
-        "AI safety"
-      ],
-      "modalitySlugs": [
-        "text-llms",
-        "code-agents",
         "research-ml",
         "governance-safety"
       ]
@@ -523,9 +353,6 @@
         "policy"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "research-ml",
         "governance-safety"
       ]
     },
@@ -543,12 +370,7 @@
         "research"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "audio-speech",
-        "code-agents",
-        "research-ml",
-        "governance-safety"
+        "research-ml"
       ]
     },
     {
@@ -564,12 +386,7 @@
         "research"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "audio-speech",
-        "code-agents",
-        "research-ml",
-        "governance-safety"
+        "research-ml"
       ]
     },
     {
@@ -584,12 +401,7 @@
         "ML engineering"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "audio-speech",
-        "research-ml",
-        "infra-mlops",
-        "code-agents"
+        "research-ml"
       ]
     },
     {
@@ -605,12 +417,7 @@
         "research"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "audio-speech",
-        "code-agents",
-        "research-ml",
-        "governance-safety"
+        "research-ml"
       ]
     },
     {
@@ -625,12 +432,7 @@
         "ML engineering"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "audio-speech",
-        "research-ml",
-        "infra-mlops",
-        "code-agents"
+        "research-ml"
       ]
     },
     {
@@ -646,12 +448,8 @@
         "research"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "audio-speech",
-        "code-agents",
         "research-ml",
-        "governance-safety"
+        "audio-speech"
       ]
     },
     {
@@ -666,12 +464,7 @@
         "ML engineering"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "audio-speech",
-        "research-ml",
-        "infra-mlops",
-        "code-agents"
+        "research-ml"
       ]
     },
     {
@@ -688,31 +481,8 @@
         "research"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "audio-speech",
-        "code-agents",
-        "research-ml",
-        "governance-safety"
-      ]
-    },
-    {
-      "sourceId": "anthropic-news",
-      "sourceTitle": "Anthropic News",
-      "title": "Claude Fable 5 and Claude Mythos 5",
-      "link": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
-      "isoDate": "2026-06-08T16:00:00.000Z",
-      "summary": "Update Claude Mythos 5 and Fable 5 access unavailable Jun 12, 2026 We are suspending access to Claude Fable 5 and Claude Mythos 5. We apologize for this disruption to our customers and are working to restore access as soon as possible. Read more Today we’re launching Claude Fable 5: a Mythos-class1 model that we’ve made safe for general use. Fable 5’s capabilities exceed those of any model we’ve e",
-      "categories": [
-        "Claude",
-        "agents",
-        "AI safety"
-      ],
-      "modalitySlugs": [
-        "text-llms",
-        "code-agents",
-        "research-ml",
-        "governance-safety"
+        "governance-safety",
+        "research-ml"
       ]
     },
     {
@@ -729,12 +499,7 @@
         "research"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "audio-speech",
-        "code-agents",
-        "research-ml",
-        "governance-safety"
+        "research-ml"
       ]
     },
     {
@@ -751,12 +516,9 @@
         "research"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "audio-speech",
-        "code-agents",
         "research-ml",
-        "governance-safety"
+        "governance-safety",
+        "image-video"
       ]
     },
     {
@@ -771,12 +533,7 @@
         "ML engineering"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "audio-speech",
-        "research-ml",
-        "infra-mlops",
-        "code-agents"
+        "research-ml"
       ]
     },
     {
@@ -793,12 +550,7 @@
         "research"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "audio-speech",
-        "code-agents",
-        "research-ml",
-        "governance-safety"
+        "research-ml"
       ]
     },
     {
@@ -827,12 +579,7 @@
         "products"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "audio-speech",
-        "research-ml",
-        "infra-mlops",
-        "governance-safety"
+        "research-ml"
       ]
     },
     {
@@ -847,12 +594,7 @@
         "ML engineering"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "audio-speech",
         "research-ml",
-        "infra-mlops",
-        "code-agents",
         "governance-safety"
       ]
     },
@@ -869,12 +611,8 @@
         "research"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "audio-speech",
         "code-agents",
-        "research-ml",
-        "governance-safety"
+        "research-ml"
       ]
     },
     {
@@ -891,12 +629,7 @@
         "research"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "audio-speech",
-        "code-agents",
-        "research-ml",
-        "governance-safety"
+        "research-ml"
       ]
     },
     {
@@ -911,12 +644,7 @@
         "ML engineering"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "audio-speech",
-        "research-ml",
-        "infra-mlops",
-        "code-agents"
+        "research-ml"
       ]
     },
     {
@@ -933,12 +661,7 @@
         "research"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "audio-speech",
-        "code-agents",
-        "research-ml",
-        "governance-safety"
+        "research-ml"
       ]
     },
     {
@@ -955,12 +678,7 @@
         "research"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "audio-speech",
-        "code-agents",
-        "research-ml",
-        "governance-safety"
+        "research-ml"
       ]
     },
     {
@@ -979,13 +697,7 @@
         "products"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "audio-speech",
-        "research-ml",
-        "infra-mlops",
-        "governance-safety",
-        "code-agents"
+        "research-ml"
       ]
     },
     {
@@ -1000,12 +712,7 @@
         "ML engineering"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "audio-speech",
-        "research-ml",
-        "infra-mlops",
-        "code-agents"
+        "research-ml"
       ]
     },
     {
@@ -1021,12 +728,7 @@
         "research"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "audio-speech",
-        "code-agents",
-        "research-ml",
-        "governance-safety"
+        "research-ml"
       ]
     },
     {
@@ -1041,51 +743,8 @@
         "ML engineering"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "audio-speech",
         "research-ml",
-        "infra-mlops",
         "code-agents"
-      ]
-    },
-    {
-      "sourceId": "anthropic-news",
-      "sourceTitle": "Anthropic News",
-      "title": "Introducing the Services Track and Partner Hub of the Claude Partner Network",
-      "link": "https://www.anthropic.com/news/services-track-partner-hub",
-      "isoDate": "2026-06-02T16:00:00.000Z",
-      "summary": "Almost every large enterprise is moving AI into production, and many have discovered something important: a successful pilot is not the same as a system a business can run on. The real work—and the real opportunity—is in the integration, the evaluation, and the way people's work evolves. That's why the companies getting AI integration right are doing it with partners who have done it before. In Ma",
-      "categories": [
-        "Claude",
-        "agents",
-        "AI safety"
-      ],
-      "modalitySlugs": [
-        "text-llms",
-        "code-agents",
-        "research-ml",
-        "governance-safety"
-      ]
-    },
-    {
-      "sourceId": "anthropic-news",
-      "sourceTitle": "Anthropic News",
-      "title": "What we learned mapping a year’s worth of AI-enabled cyber threats",
-      "link": "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack",
-      "isoDate": "2026-06-02T16:00:00.000Z",
-      "summary": "As AI transforms the nature of and methods behind cyberattacks, how well do the techniques and frameworks used by the security community hold up? In a new report, we seek to answer that question. We examine 832 accounts that were banned for malicious cyber activity between March 2025 and March 2026 and map them onto MITRE ATT&CK, a longstanding database of the tactics and techniques used by cybera",
-      "categories": [
-        "Claude",
-        "agents",
-        "AI safety"
-      ],
-      "modalitySlugs": [
-        "text-llms",
-        "code-agents",
-        "research-ml",
-        "governance-safety",
-        "infra-mlops"
       ]
     },
     {
@@ -1100,11 +759,7 @@
         "ML engineering"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "audio-speech",
         "research-ml",
-        "infra-mlops",
         "code-agents"
       ]
     },
@@ -1125,31 +780,7 @@
         "products"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "audio-speech",
-        "research-ml",
-        "infra-mlops",
-        "governance-safety"
-      ]
-    },
-    {
-      "sourceId": "anthropic-news",
-      "sourceTitle": "Anthropic News",
-      "title": "Expanding Project Glasswing",
-      "link": "https://www.anthropic.com/news/expanding-project-glasswing",
-      "isoDate": "2026-06-01T16:00:00.000Z",
-      "summary": "Project Glasswing is our collaborative effort to secure the world’s most important software. In early April, we announced that roughly 50 initial partners had access to Claude Mythos Preview, and since then, they’ve been deploying the model to scan their codebases for vulnerabilities. We recently described how these partners have so far found more than 10,000 high- or critical-severity security fl",
-      "categories": [
-        "Claude",
-        "agents",
-        "AI safety"
-      ],
-      "modalitySlugs": [
-        "text-llms",
-        "code-agents",
-        "research-ml",
-        "governance-safety"
+        "research-ml"
       ]
     },
     {
@@ -1164,12 +795,7 @@
         "ML engineering"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "audio-speech",
-        "research-ml",
-        "infra-mlops",
-        "code-agents"
+        "research-ml"
       ]
     },
     {
@@ -1184,31 +810,8 @@
         "ML engineering"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "audio-speech",
         "research-ml",
-        "infra-mlops",
-        "code-agents"
-      ]
-    },
-    {
-      "sourceId": "anthropic-news",
-      "sourceTitle": "Anthropic News",
-      "title": "Anthropic confidentially submits draft S-1 to the SEC",
-      "link": "https://www.anthropic.com/news/confidential-draft-s1-sec",
-      "isoDate": "2026-05-31T16:00:00.000Z",
-      "summary": "Today, Anthropic, PBC confidentially submitted a draft registration statement on Form S-1 to the U.S. Securities and Exchange Commission for a proposed initial public offering of our common stock. This gives us the option to go public after the SEC completes its review. The proposed initial public offering will depend on market conditions and other factors. The number of shares to be offered and t",
-      "categories": [
-        "Claude",
-        "agents",
-        "AI safety"
-      ],
-      "modalitySlugs": [
-        "text-llms",
-        "code-agents",
-        "research-ml",
-        "governance-safety"
+        "text-llms"
       ]
     },
     {
@@ -1226,13 +829,7 @@
         "products"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "audio-speech",
-        "research-ml",
-        "infra-mlops",
-        "governance-safety",
-        "code-agents"
+        "research-ml"
       ]
     },
     {
@@ -1251,12 +848,7 @@
         "products"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "audio-speech",
-        "research-ml",
-        "infra-mlops",
-        "governance-safety"
+        "research-ml"
       ]
     },
     {
@@ -1274,12 +866,7 @@
         "products"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "audio-speech",
-        "research-ml",
-        "infra-mlops",
-        "governance-safety"
+        "research-ml"
       ]
     },
     {
@@ -1294,12 +881,7 @@
         "ML engineering"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "audio-speech",
-        "research-ml",
-        "infra-mlops",
-        "code-agents"
+        "research-ml"
       ]
     },
     {
@@ -1322,12 +904,7 @@
         "products"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "audio-speech",
-        "research-ml",
-        "infra-mlops",
-        "governance-safety"
+        "research-ml"
       ]
     },
     {
@@ -1342,12 +919,7 @@
         "ML engineering"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "audio-speech",
-        "research-ml",
-        "infra-mlops",
-        "code-agents"
+        "research-ml"
       ]
     },
     {
@@ -1362,12 +934,7 @@
         "ML engineering"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "audio-speech",
-        "research-ml",
-        "infra-mlops",
-        "code-agents"
+        "research-ml"
       ]
     },
     {
@@ -1382,12 +949,7 @@
         "ML engineering"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "audio-speech",
-        "research-ml",
-        "infra-mlops",
-        "code-agents"
+        "research-ml"
       ]
     },
     {
@@ -1405,12 +967,7 @@
         "products"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "audio-speech",
-        "research-ml",
-        "infra-mlops",
-        "governance-safety"
+        "research-ml"
       ]
     },
     {
@@ -1430,12 +987,7 @@
         "products"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "audio-speech",
-        "research-ml",
-        "infra-mlops",
-        "governance-safety"
+        "research-ml"
       ]
     },
     {
@@ -1453,12 +1005,7 @@
         "products"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "audio-speech",
-        "research-ml",
-        "infra-mlops",
-        "governance-safety"
+        "research-ml"
       ]
     },
     {
@@ -1477,12 +1024,7 @@
         "products"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "audio-speech",
-        "research-ml",
-        "infra-mlops",
-        "governance-safety"
+        "research-ml"
       ]
     },
     {
@@ -1502,11 +1044,8 @@
       ],
       "modalitySlugs": [
         "research-ml",
-        "text-llms",
-        "image-video",
-        "governance-safety",
-        "audio-speech",
-        "code-agents"
+        "code-agents",
+        "audio-speech"
       ]
     },
     {
@@ -1521,12 +1060,7 @@
         "ML engineering"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "audio-speech",
-        "research-ml",
-        "infra-mlops",
-        "code-agents"
+        "research-ml"
       ]
     },
     {
@@ -1546,11 +1080,7 @@
         "science"
       ],
       "modalitySlugs": [
-        "research-ml",
-        "text-llms",
-        "image-video",
-        "governance-safety",
-        "code-agents"
+        "research-ml"
       ]
     },
     {
@@ -1569,10 +1099,7 @@
         "science"
       ],
       "modalitySlugs": [
-        "research-ml",
-        "text-llms",
-        "image-video",
-        "governance-safety"
+        "research-ml"
       ]
     },
     {
@@ -1592,11 +1119,7 @@
         "science"
       ],
       "modalitySlugs": [
-        "research-ml",
-        "text-llms",
-        "image-video",
-        "governance-safety",
-        "code-agents"
+        "research-ml"
       ]
     },
     {
@@ -1614,12 +1137,7 @@
         "products"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "audio-speech",
-        "research-ml",
-        "infra-mlops",
-        "governance-safety"
+        "research-ml"
       ]
     },
     {
@@ -1638,13 +1156,8 @@
         "products"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "audio-speech",
         "research-ml",
-        "infra-mlops",
-        "governance-safety",
-        "code-agents"
+        "audio-speech"
       ]
     },
     {
@@ -1666,13 +1179,7 @@
         "products"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "audio-speech",
-        "research-ml",
-        "infra-mlops",
-        "governance-safety",
-        "code-agents"
+        "research-ml"
       ]
     },
     {
@@ -1690,12 +1197,7 @@
         "products"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "audio-speech",
-        "research-ml",
-        "infra-mlops",
-        "governance-safety"
+        "research-ml"
       ]
     },
     {
@@ -1713,12 +1215,7 @@
         "products"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "audio-speech",
-        "research-ml",
-        "infra-mlops",
-        "governance-safety"
+        "research-ml"
       ]
     },
     {
@@ -1737,12 +1234,7 @@
         "products"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "audio-speech",
-        "research-ml",
-        "infra-mlops",
-        "governance-safety"
+        "research-ml"
       ]
     },
     {
@@ -1762,12 +1254,7 @@
         "products"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "audio-speech",
-        "research-ml",
-        "infra-mlops",
-        "governance-safety"
+        "research-ml"
       ]
     },
     {
@@ -1782,12 +1269,7 @@
         "ML engineering"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "audio-speech",
-        "research-ml",
-        "infra-mlops",
-        "code-agents"
+        "research-ml"
       ]
     },
     {
@@ -1802,12 +1284,7 @@
         "ML engineering"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "audio-speech",
-        "research-ml",
-        "infra-mlops",
-        "code-agents"
+        "research-ml"
       ]
     },
     {
@@ -1826,8 +1303,6 @@
       ],
       "modalitySlugs": [
         "research-ml",
-        "text-llms",
-        "image-video",
         "governance-safety"
       ]
     },
@@ -1846,12 +1321,7 @@
         "products"
       ],
       "modalitySlugs": [
-        "text-llms",
-        "image-video",
-        "audio-speech",
-        "research-ml",
-        "infra-mlops",
-        "governance-safety"
+        "research-ml"
       ]
     },
     {
@@ -1869,10 +1339,7 @@
         "science"
       ],
       "modalitySlugs": [
-        "research-ml",
-        "text-llms",
-        "image-video",
-        "governance-safety"
+        "research-ml"
       ]
     },
     {
@@ -1893,11 +1360,8 @@
         "science"
       ],
       "modalitySlugs": [
-        "research-ml",
-        "text-llms",
-        "image-video",
-        "governance-safety",
-        "code-agents"
+        "code-agents",
+        "research-ml"
       ]
     },
     {
@@ -1914,10 +1378,7 @@
         "science"
       ],
       "modalitySlugs": [
-        "research-ml",
-        "text-llms",
-        "image-video",
-        "governance-safety"
+        "research-ml"
       ]
     },
     {
@@ -1945,10 +1406,7 @@
         "science"
       ],
       "modalitySlugs": [
-        "research-ml",
-        "text-llms",
-        "image-video",
-        "governance-safety"
+        "research-ml"
       ]
     },
     {
@@ -1965,10 +1423,7 @@
         "science"
       ],
       "modalitySlugs": [
-        "research-ml",
-        "text-llms",
-        "image-video",
-        "governance-safety"
+        "research-ml"
       ]
     },
     {
@@ -1988,10 +1443,7 @@
         "science"
       ],
       "modalitySlugs": [
-        "research-ml",
-        "text-llms",
-        "image-video",
-        "governance-safety"
+        "research-ml"
       ]
     },
     {
@@ -2009,10 +1461,7 @@
         "science"
       ],
       "modalitySlugs": [
-        "research-ml",
-        "text-llms",
-        "image-video",
-        "governance-safety"
+        "research-ml"
       ]
     },
     {
@@ -2043,8 +1492,6 @@
       ],
       "modalitySlugs": [
         "research-ml",
-        "text-llms",
-        "image-video",
         "governance-safety"
       ]
     },
@@ -2063,10 +1510,7 @@
         "science"
       ],
       "modalitySlugs": [
-        "research-ml",
-        "text-llms",
-        "image-video",
-        "governance-safety"
+        "research-ml"
       ]
     },
     {
@@ -2084,10 +1528,7 @@
         "science"
       ],
       "modalitySlugs": [
-        "research-ml",
-        "text-llms",
-        "image-video",
-        "governance-safety"
+        "research-ml"
       ]
     },
     {
@@ -2105,9 +1546,7 @@
         "research commentary"
       ],
       "modalitySlugs": [
-        "research-ml",
-        "text-llms",
-        "governance-safety"
+        "research-ml"
       ]
     },
     {
@@ -2127,10 +1566,7 @@
         "science"
       ],
       "modalitySlugs": [
-        "research-ml",
-        "text-llms",
-        "image-video",
-        "governance-safety"
+        "research-ml"
       ]
     },
     {
@@ -2159,10 +1595,7 @@
         "science"
       ],
       "modalitySlugs": [
-        "research-ml",
-        "text-llms",
-        "image-video",
-        "governance-safety"
+        "research-ml"
       ]
     },
     {
@@ -2180,10 +1613,7 @@
         "science"
       ],
       "modalitySlugs": [
-        "research-ml",
-        "text-llms",
-        "image-video",
-        "governance-safety"
+        "research-ml"
       ]
     },
     {
@@ -2200,10 +1630,7 @@
         "research commentary"
       ],
       "modalitySlugs": [
-        "research-ml",
-        "text-llms",
-        "governance-safety",
-        "image-video"
+        "research-ml"
       ]
     },
     {
@@ -2218,9 +1645,7 @@
         "research commentary"
       ],
       "modalitySlugs": [
-        "research-ml",
-        "text-llms",
-        "governance-safety"
+        "research-ml"
       ]
     },
     {
@@ -2236,9 +1661,7 @@
       ],
       "modalitySlugs": [
         "research-ml",
-        "text-llms",
-        "governance-safety",
-        "image-video"
+        "text-llms"
       ]
     },
     {
@@ -2257,10 +1680,7 @@
       ],
       "modalitySlugs": [
         "research-ml",
-        "text-llms",
-        "governance-safety",
-        "image-video",
-        "code-agents"
+        "governance-safety"
       ]
     },
     {
@@ -2277,9 +1697,7 @@
         "research commentary"
       ],
       "modalitySlugs": [
-        "research-ml",
-        "text-llms",
-        "governance-safety"
+        "text-llms"
       ]
     },
     {
@@ -2297,7 +1715,6 @@
       ],
       "modalitySlugs": [
         "research-ml",
-        "text-llms",
         "governance-safety"
       ]
     },
@@ -2316,9 +1733,7 @@
         "research commentary"
       ],
       "modalitySlugs": [
-        "research-ml",
-        "text-llms",
-        "governance-safety"
+        "research-ml"
       ]
     },
     {
@@ -2335,9 +1750,8 @@
         "research commentary"
       ],
       "modalitySlugs": [
-        "research-ml",
         "text-llms",
-        "governance-safety"
+        "research-ml"
       ]
     },
     {
@@ -2356,9 +1770,7 @@
       ],
       "modalitySlugs": [
         "research-ml",
-        "text-llms",
-        "governance-safety",
-        "code-agents"
+        "text-llms"
       ]
     },
     {
@@ -2375,9 +1787,7 @@
         "research commentary"
       ],
       "modalitySlugs": [
-        "research-ml",
-        "text-llms",
-        "governance-safety"
+        "research-ml"
       ]
     },
     {
@@ -2394,9 +1804,7 @@
         "research commentary"
       ],
       "modalitySlugs": [
-        "research-ml",
-        "text-llms",
-        "governance-safety"
+        "research-ml"
       ]
     },
     {
@@ -2413,9 +1821,7 @@
         "research commentary"
       ],
       "modalitySlugs": [
-        "research-ml",
-        "text-llms",
-        "governance-safety"
+        "research-ml"
       ]
     },
     {
@@ -2432,9 +1838,7 @@
         "research commentary"
       ],
       "modalitySlugs": [
-        "research-ml",
-        "text-llms",
-        "governance-safety"
+        "research-ml"
       ]
     },
     {
@@ -2452,9 +1856,9 @@
         "research commentary"
       ],
       "modalitySlugs": [
+        "governance-safety",
         "research-ml",
-        "text-llms",
-        "governance-safety"
+        "text-llms"
       ]
     }
   ],

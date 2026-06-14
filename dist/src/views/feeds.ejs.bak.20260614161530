@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title><%= title %></title>
+  <link rel="stylesheet" href="/css/site.css">
+</head>
+<body>
+  <%- include('partials-header', { modalities }) %>
+  <main class="layout">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">RSS configuration</p>
+        <h1>Feeds</h1>
+        <p class="lead">These sources seed the AI World modality pages. Add or remove feeds in <code>src/config/feeds.ts</code>.</p>
+      </div>
+      <form method="post" action="/admin/refresh-feeds">
+        <button type="submit">Refresh now</button>
+      </form>
+    </div>
+    <p class="meta">Last refresh: <%= new Date(updatedAt).toLocaleString() %></p>
+
+    <table>
+      <thead><tr><th>Source</th><th>Reliability</th><th>Modalities</th><th>Feed URL</th></tr></thead>
+      <tbody>
+        <% feedSources.forEach((source) => { %>
+          <tr>
+            <td><a href="<%= source.homepage %>" target="_blank" rel="noopener noreferrer"><%= source.title %></a></td>
+            <td><%= source.reliability %></td>
+            <td><%= source.modalitySlugs.join(', ') %></td>
+            <td><code><%= source.url %></code></td>
+          </tr>
+        <% }) %>
+      </tbody>
+    </table>
+
+    <% if (errors.length > 0) { %>
+      <h2>Feed refresh warnings</h2>
+      <div class="feed-list">
+        <% errors.forEach((error) => { %>
+          <article class="feed-item warning">
+            <h3><%= error.sourceId %></h3>
+            <p><%= error.message %></p>
+          </article>
+        <% }) %>
+      </div>
+    <% } %>
+  </main>
+</body>
+</html>

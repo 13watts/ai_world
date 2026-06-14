@@ -9,16 +9,6 @@ export const feedSources = [
         reliability: 'official'
     },
     {
-        id: 'anthropic-news',
-        title: 'Anthropic News',
-        url: 'https://rsshub.app/anthropic/news',
-        homepage: 'https://www.anthropic.com/news',
-        fallbackUrls: ['https://rsshub.rssforever.com/anthropic/news'],
-        modalitySlugs: ['text-llms', 'code-agents', 'research-ml', 'governance-safety'],
-        tags: ['Claude', 'agents', 'AI safety'],
-        reliability: 'community'
-    },
-    {
         id: 'google-ai-blog',
         title: 'Google AI Blog',
         url: 'https://blog.google/technology/ai/rss/',
