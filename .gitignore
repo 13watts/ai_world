@@ -1,0 +1,60 @@
+# Node / TypeScript dependencies
+node_modules/
+dist/
+build/
+coverage/
+.nyc_output/
+*.tsbuildinfo
+
+# Runtime environment
+.env
+.env.*
+!.env.example
+
+# Local Python environments / tools
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Logs
+logs/
+*.log
+*.jsonl
+data/logs/
+data/**/*.jsonl
+
+# Generated feed/runtime data
+data/cache/
+data/feed-cache.json
+data/rss-cache.json
+data/feed-items.json
+data/*.cache.json
+
+# Backup / patch leftovers
+*bak*
+*.bak
+*.bak.*
+*.orig
+*.rej
+
+# Editor / OS noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Temporary files
+tmp/
+temp/
+.cache/
+*.tmp
+
+# Local archives / generated bundles
+*.zip
+*.tar
+*.tar.gz
+*.tgz
