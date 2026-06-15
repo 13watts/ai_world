@@ -10,6 +10,70 @@ export const feedSources: FeedSource[] = [
     tags: ['frontier models', 'product', 'research'],
     reliability: 'official'
   },
+
+{
+  id: 'aws-machine-learning',
+  title: 'AWS Machine Learning Blog',
+  url: 'https://aws.amazon.com/blogs/machine-learning/feed/',
+  homepage: 'https://aws.amazon.com/blogs/machine-learning/',
+  modalitySlugs: ['infra-mlops', 'code-agents', 'text-llms', 'research-ml'],
+  tags: ['AWS', 'Bedrock', 'MLOps', 'agents', 'machine learning'],
+  reliability: 'official'
+},
+{
+  id: 'nvidia-blog',
+  title: 'NVIDIA Blog',
+  url: 'https://feeds.feedburner.com/nvidiablog',
+  homepage: 'https://blogs.nvidia.com/',
+  modalitySlugs: ['infra-mlops', 'image-video', 'research-ml', 'code-agents'],
+  tags: ['GPU', 'accelerated computing', 'AI infrastructure', 'robotics'],
+  reliability: 'official'
+},
+{
+  id: 'nvidia-developer-blog',
+  title: 'NVIDIA Developer Blog',
+  url: 'https://developer.nvidia.com/blog/feed',
+  homepage: 'https://developer.nvidia.com/blog/',
+  modalitySlugs: ['infra-mlops', 'code-agents', 'image-video', 'research-ml'],
+  tags: ['CUDA', 'inference', 'GPU engineering', 'developer tooling'],
+  reliability: 'official'
+},
+{
+  id: 'mit-news-ai',
+  title: 'MIT News — Artificial Intelligence',
+  url: 'https://news.mit.edu/topic/mitartificial-intelligence2-rss.xml',
+  homepage: 'https://news.mit.edu/topic/artificial-intelligence2',
+  modalitySlugs: ['research-ml', 'text-llms', 'image-video', 'governance-safety'],
+  tags: ['MIT', 'research', 'academic', 'AI applications'],
+  reliability: 'official'
+},
+{
+  id: 'bair-blog',
+  title: 'Berkeley Artificial Intelligence Research Blog',
+  url: 'https://bair.berkeley.edu/blog/feed.xml',
+  homepage: 'https://bair.berkeley.edu/blog/',
+  modalitySlugs: ['research-ml', 'text-llms', 'image-video', 'code-agents', 'governance-safety'],
+  tags: ['academic research', 'deep learning', 'robotics', 'NLP', 'vision'],
+  reliability: 'research'
+},
+{
+  id: 'stanford-sail-blog',
+  title: 'Stanford AI Lab Blog',
+  url: 'https://ai.stanford.edu/blog/feed.xml',
+  homepage: 'https://ai.stanford.edu/blog/',
+  modalitySlugs: ['research-ml', 'text-llms', 'image-video', 'audio-speech', 'governance-safety'],
+  tags: ['Stanford', 'academic research', 'NLP', 'vision', 'robotics'],
+  reliability: 'research'
+},
+{
+  id: 'ibm-ai-newsroom',
+  title: 'IBM Newsroom — Artificial Intelligence',
+  url: 'https://newsroom.ibm.com/press-releases-artificial-intelligence?pagetemplate=rss',
+  homepage: 'https://newsroom.ibm.com/press-releases-artificial-intelligence',
+  modalitySlugs: ['text-llms', 'infra-mlops', 'research-ml', 'governance-safety'],
+  tags: ['IBM', 'enterprise AI', 'research', 'hybrid cloud'],
+  reliability: 'official'
+},
   
   {
     id: 'google-ai-blog',
@@ -92,5 +156,32 @@ export const feedSources: FeedSource[] = [
     modalitySlugs: ['research-ml', 'text-llms', 'governance-safety'],
     tags: ['analysis', 'research commentary'],
     reliability: 'editorial'
-  }
+  },
+{
+  id: 'arxiv-stat-ml',
+  title: 'arXiv Statistics — Machine Learning',
+  url: 'https://rss.arxiv.org/rss/stat.ML',
+  homepage: 'https://arxiv.org/list/stat.ML/recent',
+  modalitySlugs: ['research-ml'],
+  tags: ['papers', 'statistics', 'machine learning'],
+  reliability: 'research'
+},
+{
+  id: 'arxiv-robotics',
+  title: 'arXiv Robotics',
+  url: 'https://rss.arxiv.org/rss/cs.RO',
+  homepage: 'https://arxiv.org/list/cs.RO/recent',
+  modalitySlugs: ['research-ml', 'image-video', 'code-agents'],
+  tags: ['robotics', 'embodied AI', 'agents', 'papers'],
+  reliability: 'research'
+},
+{
+  id: 'arxiv-audio-speech',
+  title: 'arXiv Audio and Speech Processing',
+  url: 'https://rss.arxiv.org/rss/eess.AS',
+  homepage: 'https://arxiv.org/list/eess.AS/recent',
+  modalitySlugs: ['audio-speech', 'research-ml'],
+  tags: ['speech', 'audio', 'signal processing', 'papers'],
+  reliability: 'research'
+}
 ];

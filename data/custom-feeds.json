@@ -1,1 +1,400 @@
-[]
+[
+  {
+    "id": "custom-raw-githubusercontent-com-ai-news",
+    "title": "AI News",
+    "url": "https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/allenai-news.xml",
+    "homepage": "https://allenai.org",
+    "modalitySlugs": [
+      "research-ml"
+    ],
+    "tags": [
+      "custom",
+      "rss",
+      "research-ml"
+    ],
+    "reliability": "community",
+    "addedAt": "2026-06-15T19:08:46.336Z",
+    "classification": {
+      "scores": {
+        "text-llms": 2,
+        "image-video": 9,
+        "audio-speech": 2,
+        "code-agents": 9.5,
+        "research-ml": 19.5,
+        "infra-mlops": 1.5,
+        "governance-safety": 1
+      },
+      "rationale": [
+        "image-video: matched \"visual\"",
+        "code-agents: matched \"agent\"",
+        "code-agents: matched \"agents\"",
+        "research-ml: matched \"research\"",
+        "research-ml: matched \"benchmark\""
+      ]
+    }
+  },
+  {
+    "id": "custom-feeds-arstechnica-com-ars-technica",
+    "title": "ARS Technica",
+    "url": "https://feeds.arstechnica.com/arstechnica/index",
+    "homepage": "https://arstechnica.com",
+    "modalitySlugs": [
+      "governance-safety"
+    ],
+    "tags": [
+      "custom",
+      "rss",
+      "governance-safety"
+    ],
+    "reliability": "community",
+    "addedAt": "2026-06-14T23:06:44.088Z",
+    "classification": {
+      "scores": {
+        "text-llms": 1,
+        "image-video": 1.5,
+        "audio-speech": 0,
+        "code-agents": 0.5,
+        "research-ml": 6.5,
+        "infra-mlops": 1,
+        "governance-safety": 37
+      },
+      "rationale": [
+        "research-ml: matched \"research\"",
+        "governance-safety: matched \"policy\"",
+        "governance-safety: matched \"security\"",
+        "governance-safety: matched \"law\""
+      ]
+    }
+  },
+  {
+    "id": "custom-blog-bytebytego-com-byte-byte-go",
+    "title": "Byte Byte Go",
+    "url": "https://blog.bytebytego.com/feed",
+    "homepage": "https://blog.bytebytego.com",
+    "modalitySlugs": [
+      "code-agents",
+      "infra-mlops"
+    ],
+    "tags": [
+      "custom",
+      "rss",
+      "code-agents",
+      "infra-mlops"
+    ],
+    "reliability": "community",
+    "addedAt": "2026-06-14T23:08:20.861Z",
+    "classification": {
+      "scores": {
+        "text-llms": 11,
+        "image-video": 1,
+        "audio-speech": 1.5,
+        "code-agents": 30.5,
+        "research-ml": 0.5,
+        "infra-mlops": 19,
+        "governance-safety": 0.5
+      },
+      "rationale": [
+        "text-llms: matched \"llm\"",
+        "text-llms: matched \"token\"",
+        "code-agents: matched \"agent\"",
+        "code-agents: matched \"agents\"",
+        "infra-mlops: matched \"deployment\"",
+        "infra-mlops: matched \"latency\""
+      ]
+    }
+  },
+  {
+    "id": "custom-raw-githubusercontent-com-cohere-blog",
+    "title": "Cohere Blog",
+    "url": "https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/cohere-blog.xml",
+    "homepage": "https://cohere.com",
+    "modalitySlugs": [
+      "text-llms",
+      "audio-speech",
+      "code-agents"
+    ],
+    "tags": [
+      "custom",
+      "rss",
+      "text-llms",
+      "audio-speech",
+      "code-agents"
+    ],
+    "reliability": "community",
+    "addedAt": "2026-06-15T19:08:12.865Z",
+    "classification": {
+      "scores": {
+        "text-llms": 10,
+        "image-video": 1.5,
+        "audio-speech": 5.5,
+        "code-agents": 5,
+        "research-ml": 1,
+        "infra-mlops": 2,
+        "governance-safety": 1.5
+      },
+      "rationale": [
+        "text-llms: matched \"llm\"",
+        "audio-speech: matched \"speech\"",
+        "code-agents: matched \"agent\""
+      ]
+    }
+  },
+  {
+    "id": "custom-media-rss-com-media-feed",
+    "title": "Media Feed",
+    "url": "https://media.rss.com/ai-for-all/feed.xml",
+    "homepage": "https://rss.com",
+    "modalitySlugs": [
+      "code-agents",
+      "governance-safety"
+    ],
+    "tags": [
+      "custom",
+      "rss",
+      "code-agents",
+      "governance-safety"
+    ],
+    "reliability": "community",
+    "addedAt": "2026-06-14T23:31:39.567Z",
+    "classification": {
+      "scores": {
+        "text-llms": 26.5,
+        "image-video": 4,
+        "audio-speech": 6.5,
+        "code-agents": 160.5,
+        "research-ml": 63.5,
+        "infra-mlops": 5,
+        "governance-safety": 95
+      },
+      "rationale": [
+        "text-llms: matched \"llm\"",
+        "text-llms: matched \"assistant\"",
+        "text-llms: matched \"prompt\"",
+        "audio-speech: matched \"speech\"",
+        "code-agents: matched \"agent\"",
+        "code-agents: matched \"agents\"",
+        "code-agents: matched \"automation\"",
+        "research-ml: matched \"paper\"",
+        "research-ml: matched \"papers\"",
+        "research-ml: matched \"research\"",
+        "research-ml: matched \"training\"",
+        "research-ml: matched \"machine learning\""
+      ]
+    }
+  },
+  {
+    "id": "custom-raw-githubusercontent-com-mistral-news",
+    "title": "Mistral News",
+    "url": "https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/mistral-news.xml",
+    "homepage": "https://mistral.ai",
+    "modalitySlugs": [
+      "research-ml"
+    ],
+    "tags": [
+      "custom",
+      "rss",
+      "research-ml"
+    ],
+    "reliability": "community",
+    "addedAt": "2026-06-15T19:06:00.716Z",
+    "classification": {
+      "scores": {
+        "text-llms": 1.5,
+        "image-video": 1.5,
+        "audio-speech": 0,
+        "code-agents": 0,
+        "research-ml": 1,
+        "infra-mlops": 1.5,
+        "governance-safety": 1
+      },
+      "rationale": []
+    }
+  },
+  {
+    "id": "custom-rss-beehiiv-com-rundown-ai",
+    "title": "Rundown AI",
+    "url": "https://rss.beehiiv.com/feeds/2R3C6Bt5wj.xml",
+    "homepage": "https://www.therundown.ai",
+    "modalitySlugs": [
+      "code-agents",
+      "research-ml",
+      "governance-safety"
+    ],
+    "tags": [
+      "custom",
+      "rss",
+      "code-agents",
+      "research-ml",
+      "governance-safety"
+    ],
+    "reliability": "community",
+    "addedAt": "2026-06-14T23:09:55.435Z",
+    "classification": {
+      "scores": {
+        "text-llms": 3,
+        "image-video": 1.5,
+        "audio-speech": 0,
+        "code-agents": 16,
+        "research-ml": 10.5,
+        "infra-mlops": 1,
+        "governance-safety": 9.5
+      },
+      "rationale": [
+        "text-llms: matched \"prompt\"",
+        "code-agents: matched \"agent\"",
+        "research-ml: matched \"research\"",
+        "research-ml: matched \"dataset\"",
+        "governance-safety: matched \"regulation\"",
+        "governance-safety: matched \"law\""
+      ]
+    }
+  },
+  {
+    "id": "custom-techcrunch-com-tech-chrunch",
+    "title": "Tech Chrunch",
+    "url": "https://techcrunch.com/feed/",
+    "homepage": "https://techcrunch.com",
+    "modalitySlugs": [
+      "governance-safety"
+    ],
+    "tags": [
+      "custom",
+      "rss",
+      "governance-safety"
+    ],
+    "reliability": "community",
+    "addedAt": "2026-06-14T23:07:44.062Z",
+    "classification": {
+      "scores": {
+        "text-llms": 1,
+        "image-video": 2,
+        "audio-speech": 6.5,
+        "code-agents": 0,
+        "research-ml": 6,
+        "infra-mlops": 1,
+        "governance-safety": 50
+      },
+      "rationale": [
+        "audio-speech: matched \"audio\"",
+        "research-ml: matched \"training\"",
+        "governance-safety: matched \"policy\"",
+        "governance-safety: matched \"security\""
+      ]
+    }
+  },
+  {
+    "id": "custom-raw-githubusercontent-com-the-batch",
+    "title": "The Batch",
+    "url": "https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/the-batch.xml",
+    "homepage": "https://www.deeplearning.ai",
+    "modalitySlugs": [
+      "code-agents",
+      "text-llms"
+    ],
+    "tags": [
+      "custom",
+      "rss",
+      "code-agents",
+      "text-llms"
+    ],
+    "reliability": "community",
+    "addedAt": "2026-06-15T19:06:40.832Z",
+    "classification": {
+      "scores": {
+        "text-llms": 39.5,
+        "image-video": 18,
+        "audio-speech": 14.5,
+        "code-agents": 59.5,
+        "research-ml": 7,
+        "infra-mlops": 10,
+        "governance-safety": 5
+      },
+      "rationale": [
+        "text-llms: matched \"llm\"",
+        "text-llms: matched \"language model\"",
+        "text-llms: matched \"prompt\"",
+        "text-llms: matched \"token\"",
+        "image-video: matched \"video generation\"",
+        "image-video: matched \"multimodal\"",
+        "image-video: matched \"diffusion\"",
+        "audio-speech: matched \"voice\"",
+        "audio-speech: matched \"music generation\"",
+        "code-agents: matched \"agent\"",
+        "code-agents: matched \"agents\"",
+        "code-agents: matched \"software engineering\""
+      ]
+    }
+  },
+  {
+    "id": "custom-theverge-com-the-verge",
+    "title": "The Verge",
+    "url": "https://www.theverge.com/rss/index.xml",
+    "homepage": "https://www.theverge.com",
+    "modalitySlugs": [
+      "research-ml",
+      "governance-safety"
+    ],
+    "tags": [
+      "custom",
+      "rss",
+      "research-ml",
+      "governance-safety"
+    ],
+    "reliability": "community",
+    "addedAt": "2026-06-14T23:05:12.892Z",
+    "classification": {
+      "scores": {
+        "text-llms": 3,
+        "image-video": 8,
+        "audio-speech": 1,
+        "code-agents": 0,
+        "research-ml": 34.5,
+        "infra-mlops": 1,
+        "governance-safety": 28.5
+      },
+      "rationale": [
+        "text-llms: matched \"prompt\"",
+        "image-video: matched \"vision\"",
+        "research-ml: matched \"paper\"",
+        "research-ml: matched \"research\"",
+        "research-ml: matched \"training\"",
+        "governance-safety: matched \"safety\"",
+        "governance-safety: matched \"risk\"",
+        "governance-safety: matched \"security\""
+      ]
+    }
+  },
+  {
+    "id": "custom-raw-githubusercontent-com-tldr-ai",
+    "title": "TLDR AI",
+    "url": "https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/tldr-ai.xml",
+    "homepage": "https://tldr.tech",
+    "modalitySlugs": [
+      "code-agents"
+    ],
+    "tags": [
+      "custom",
+      "rss",
+      "code-agents"
+    ],
+    "reliability": "community",
+    "addedAt": "2026-06-15T19:07:21.480Z",
+    "classification": {
+      "scores": {
+        "text-llms": 3,
+        "image-video": 3,
+        "audio-speech": 0,
+        "code-agents": 16,
+        "research-ml": 1,
+        "infra-mlops": 6,
+        "governance-safety": 1
+      },
+      "rationale": [
+        "text-llms: matched \"token\"",
+        "code-agents: matched \"agent\"",
+        "code-agents: matched \"mcp\"",
+        "infra-mlops: matched \"gpu\""
+      ]
+    }
+  }
+]

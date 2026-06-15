@@ -1,7 +1,8 @@
 import { Router } from 'express';
 import { getModality, modalities } from '../config/modalities.js';
+import { getWatchArea, watchAreas } from '../config/watchAreas.js';
 import { addCustomFeedFromUrl, getAllFeedSources } from '../services/feedRegistry.js';
-import { getFeedCache, getItemsForModality, refreshFeeds } from '../services/feedService.js';
+import { getFeedCache, getItemsForModality, getItemsForWatchArea, refreshFeeds } from '../services/feedService.js';
 import { getRecentLogEvents } from '../services/activityLog.js';
 
 export const siteRoutes = Router();
@@ -9,7 +10,31 @@ export const siteRoutes = Router();
 siteRoutes.get('/', async (_req, res, next) => {
   try {
     const cache = await getFeedCache();
-    res.render('index', { title: 'AI World', modalities, recentItems: cache.items.slice(0, 12), updatedAt: cache.updatedAt });
+    res.render('index', { title: 'AI World', modalities, watchAreas, recentItems: cache.items.slice(0, 12), updatedAt: cache.updatedAt });
+  } catch (error) {
+    next(error);
+  }
+});
+
+
+siteRoutes.get('/watch', async (_req, res, next) => {
+  try {
+    res.render('watch-index', { title: 'Watch Areas | AI World', modalities, watchAreas });
+  } catch (error) {
+    next(error);
+  }
+});
+
+siteRoutes.get('/watch/:slug', async (req, res, next) => {
+  try {
+    const watchArea = getWatchArea(req.params.slug);
+    if (!watchArea) {
+      res.status(404).render('not-found', { title: 'Not Found', modalities, watchAreas });
+      return;
+    }
+
+    const items = await getItemsForWatchArea(watchArea.slug);
+    res.render('watch-area', { title: `${watchArea.name} | AI World`, modalities, watchAreas, watchArea, items });
   } catch (error) {
     next(error);
   }
@@ -19,7 +44,7 @@ siteRoutes.get('/modalities/:slug', async (req, res, next) => {
   try {
     const modality = getModality(req.params.slug);
     if (!modality) {
-      res.status(404).render('not-found', { title: 'Not Found', modalities });
+      res.status(404).render('not-found', { title: 'Not Found', modalities, watchAreas });
       return;
     }
 
@@ -27,7 +52,7 @@ siteRoutes.get('/modalities/:slug', async (req, res, next) => {
     const allFeedSources = await getAllFeedSources();
     const sources = allFeedSources.filter((source) => source.modalitySlugs.includes(modality.slug));
 
-    res.render('modality', { title: `${modality.name} | AI World`, modalities, modality, items, sources });
+    res.render('modality', { title: `${modality.name} | AI World`, modalities, watchAreas, modality, items, sources });
   } catch (error) {
     next(error);
   }
@@ -40,6 +65,7 @@ siteRoutes.get('/feeds', async (req, res, next) => {
     res.render('feeds', {
       title: 'Feeds | AI World',
       modalities,
+      watchAreas,
       feedSources: allFeedSources,
       errors: cache.errors,
       updatedAt: cache.updatedAt,

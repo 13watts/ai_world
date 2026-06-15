@@ -3,10 +3,11 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import Parser from 'rss-parser';
 import { z } from 'zod';
-import type { FeedCache, FeedItem, ModalitySlug } from '../types/content.js';
+import type { FeedCache, FeedItem, ModalitySlug, WatchAreaSlug } from '../types/content.js';
 import { getAllFeedSources } from './feedRegistry.js';
 import { logFeedCrawlEvent } from './activityLog.js';
 import { classifyItemModalities } from './modalityClassifier.js';
+import { classifyItemWatchAreas } from './watchAreaClassifier.js';
 
 const parser = new Parser({
   timeout: 15_000,
@@ -148,7 +149,8 @@ export async function refreshFeeds(): Promise<FeedCache> {
             isoDate: safeText(item.isoDate ?? item.pubDate) || undefined,
             summary,
             categories,
-            modalitySlugs: classifyItemModalities(source, title, summary, categories)
+            modalitySlugs: classifyItemModalities(source, title, summary, categories),
+            watchAreaSlugs: classifyItemWatchAreas(source, title, summary, categories)
           });
         }
       } catch (error) {
@@ -223,4 +225,10 @@ export async function getFeedCache(): Promise<FeedCache> {
 export async function getItemsForModality(slug: string, limit = 50): Promise<FeedItem[]> {
   const cache = await getFeedCache();
   return cache.items.filter((item) => item.modalitySlugs.includes(slug as ModalitySlug)).slice(0, limit);
+}
+
+
+export async function getItemsForWatchArea(slug: string, limit = 50): Promise<FeedItem[]> {
+  const cache = await getFeedCache();
+  return cache.items.filter((item) => (item.watchAreaSlugs ?? []).includes(slug as WatchAreaSlug)).slice(0, limit);
 }

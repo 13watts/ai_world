@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title><%= title %></title>
+  <link rel="stylesheet" href="/css/site.css">
+</head>
+<body>
+  <%- include('partials-header', { modalities, watchAreas }) %>
+  <main class="layout two-column">
+    <section>
+      <p class="eyebrow">Watch area</p>
+      <h1><%= watchArea.name %></h1>
+      <p class="lead"><%= watchArea.summary %></p>
+
+      <h2>Latest resources</h2>
+      <div class="feed-list">
+        <% if (items.length === 0) { %><p>No feed items found for this watch area yet.</p><% } %>
+        <% items.forEach((item) => { %>
+          <article class="feed-item">
+            <h3><a href="<%= item.link %>" target="_blank" rel="noopener noreferrer"><%= item.title %></a></h3>
+            <p class="meta"><%= item.sourceTitle %><% if (item.isoDate) { %> · <%= new Date(item.isoDate).toLocaleDateString() %><% } %></p>
+            <% if (item.summary) { %><p><%= item.summary %></p><% } %>
+            <p class="tags"><%= item.categories.slice(0, 6).join(' · ') %></p>
+            <p class="meta">Modalities: <%= item.modalitySlugs.join(', ') %></p>
+            <p class="meta">Watch areas: <%= (item.watchAreaSlugs ?? []).join(', ') %></p>
+          </article>
+        <% }) %>
+      </div>
+    </section>
+
+    <aside class="sidebar">
+      <h2>Routing profile</h2>
+      <p><strong>Related modalities:</strong> <%= watchArea.modalitySlugs.join(', ') %></p>
+      <p><strong>Keywords:</strong></p>
+      <p class="tags"><%= watchArea.keywords.join(' · ') %></p>
+    </aside>
+  </main>
+</body>
+</html>

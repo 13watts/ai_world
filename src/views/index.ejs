@@ -28,6 +28,20 @@
       </div>
     </section>
 
+
+    <section>
+      <h2>Watch areas</h2>
+      <div class="cards">
+        <% watchAreas.forEach((watchArea) => { %>
+          <article class="card">
+            <h3><a href="/watch/<%= watchArea.slug %>"><%= watchArea.name %></a></h3>
+            <p><%= watchArea.summary %></p>
+            <p class="tags"><%= watchArea.keywords.slice(0, 6).join(' · ') %></p>
+          </article>
+        <% }) %>
+      </div>
+    </section>
+
     <section>
       <div class="section-heading">
         <h2>Latest AI items</h2>
